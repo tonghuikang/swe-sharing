@@ -101,6 +101,7 @@ Tong Hui Kang
 ---
 
 # Introduction
+<br>
 
 - Motivation of this talk
   - To inform what software engineering is like
@@ -110,6 +111,7 @@ Tong Hui Kang
 ---
 
 # Interesting projects
+<br>
 
 - Timetable scheduling
   - Given constraints, suggest a timetable for the school
@@ -121,6 +123,7 @@ Tong Hui Kang
 ---
 
 # The appeal of working in software engineering
+<br>
 
 <!-- Here I explain my main motivation for working on software engineering. It is easy to explain how doctors, lawyers or teachers add value to society and find joy in the profession. -->
 
@@ -142,6 +145,7 @@ Tong Hui Kang
 ---
 
 # Workflow of a technical role
+<br>
 
 Code is usually packed in repositories. How are the repositories are edited
 
@@ -173,7 +177,7 @@ allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pic
 
 
 # Tools used in a technical role
-
+<br>
 <!-- Another perspective of software engineers I want to provide is based on the tools at the software engineer use. -->
 
 - Code editor
@@ -210,6 +214,7 @@ Software engineering basics is required of all engineers, after which they can s
 ---
 
 # Alternate classification of software engineering
+<br>
 
 - Note on specialisations
   - Different people have different definitions
@@ -222,15 +227,15 @@ Software engineering basics is required of all engineers, after which they can s
 # The tech landscape in Singapore
 <br>
 
-There is a common perception that engineering in Singapore is undervalued. I would like to provide a better insight into the following points.
+<!-- There is a common perception that engineering in Singapore is undervalued. I would like to provide a better insight into the following points. -->
 
-- Salaries
+- Salaries [TODO]
   - Graduate starting salaries (Ref TBC)
   - Waterloo survey
     https://uw-se-2020-class-profile.github.io/profile.pdf
   - Levels.fyi and Singapore equivalent
   - Geographical variation
-- Career progression
+- Career progression [TODO]
   - Expectations at each level
   - https://www.quora.com/What-is-the-expectation-out-of-each-software-engineering-level-at-Facebook/answer/Dima-Korolev
   - Software engineering is a collaborative process
@@ -249,24 +254,30 @@ There is a common perception that engineering in Singapore is undervalued. I wou
 
 
 ---
-# Market of software engineering
+# The software engineering market
 
 - Company types [TODO]
   - Big tech companies
   - Banks
   - Government
   - Consultancies
-- Size of the Talent pool [TODO]
-  - NUS CS, NTU CS enrolment, total IT enrolment
-  - Compared to how many open roles and internships in the companies
 - FAANG-tier - Google / Facebook / Bytedance / Indeed / Stripe / Paypal
   - Google SWE interns on average have two prior internships at tech companies
   - More than half of Google / Facebook new graduate hires interned in Google / Facebook before
 - Established tech companies - Grab / Go-Jek / etc
   - More than half of the interns have a strong prior internship
   - All new graduate hire at least have a prior internship at tech companies
+
+
+---
+# Data on the software engineering market
+
+- Size of the Talent pool [TODO]
+  - NUS CS, NTU CS enrolment, total IT enrolment
+  - Compared to how many open roles and internships in the companies
 - Empirical data is hard to find
   - The only empirical data is graduate starting salaries for each course
+
 
 ---
 
@@ -289,7 +300,7 @@ What I describe here probably applies to all professional roles as well
 
 Primary filters
 - University name and course
-- Internships / Work Experience
+- Internships / Work experience
   <!-- - Usually, your course requires you to complete an internship
   - Internship will be the main differentiator of resumes
   - Recruiters will judge the quality of your internship experience
@@ -313,12 +324,14 @@ Tie breakers
 ---
 
 ## How to pass the online assessment
+<br>
 
 - Practise coding questions
   - [Leetcode](https://leetcode.com), [BinarySearch](https://binarysearch.com)
   - Leetcode has weekly contests that simulate how online assessments work
 
 ## How to pass the coding interview
+<br>
 
 - Mock interviews
   - The best way to practise for an interview is to go for a real interview
@@ -342,11 +355,13 @@ allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pic
 - Do a technical internship in every summer break if possible
   - Your application is stronger with technical internships
   - Your first internship is unlikely to be prestigious
-  - You are not expected to do part-time internship while studying
+    - Anywhere with a developer you can learn from is fine
 - Take on technical projects
   - Course projects are fine if there is some degree of innovation
   - After the project, document the achievements and summarise what you have learnt
 - Practise for online assessments and coding interviews
+- Network and share resources
+  - For all my internships, referrals helped to get me an interview
 
 ---
 
@@ -355,17 +370,17 @@ allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pic
 
 You might want to find out if coding is for you
 - My suggestion is to learn Python and solve simple algorithmic tasks
-  - I think [CodeSignal Arcade](https://app.codesignal.com/arcade/python-arcade/meet-python) introduces the concepts step by step
+  - [CodeSignal Arcade](https://app.codesignal.com/arcade/python-arcade/meet-python) introduces the concepts step by step
   - Online videos are fine too
-  - Start with Python, rather than say Android programming
+  - Start with Python which is easy to learn, rather than say Android programming
 - Coding bootcamps
   - Singaporeans might be eligible for massive discounts
 
 If you like coding and have a lot of time
-- Start competitive programming (Leetcode contests, Codeforces)
+- Competitive programming (Leetcode contests, Codeforces)
   <!-- I should have practised competitive programming in NS -->
 - Kaggle data science competitions
-- Build coding projects (start simple)
+- Build coding projects (start simple and seek advice)
 
 ---
 
@@ -374,15 +389,25 @@ If you like coding and have a lot of time
 
 If you need to write code for a JC science project (presumably done over the December break)
 
-- Could I have learnt Python?
-  - Coding and computer science was not a thing back then
-  - Resources
-- Could you learn to code over the December break?
-  - Possible, but requires a strong commitment
-  - Great if at least one of you knows already how to code
-  - Your mentor can advise
-- Fun fact [TODO]
-  - I implemented my integer factorisation algorithm on Excel
+- Consider if you need to write code
+  - Basic data analysis (e.g. R-value) could be done on Excel
+  - Algorithms could be done with code
+- Choose Python
+  - It is easy to pick up and learn
+- How to fix your code
+  - Start with a working copy
+  - Edit it bit by bit and ensuring that it still works
+- Seek advice
+  - I am open to providing advice
+
+---
+
+# This could have been done with code
+<br>
+
+Fun fact - I implemented my integer factorisation algorithm on Excel, should have done it in Python
+
+![image](assets/algorithm.png)
 
 ---
 
@@ -390,6 +415,16 @@ If you need to write code for a JC science project (presumably done over the Dec
 
 - Software engineering is cool and rewarding
 - Steps to prepare for a software engineering career
+
+---
+layout: center
+class: text-center
+---
+
+# Thank You
+
+[This slides](https://tonghuikang.github.io/swe-sharing) and [source](https://github.com/tonghuikang/swe-sharing)
+
 
 ---
 

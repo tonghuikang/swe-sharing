@@ -12,11 +12,11 @@ title: Sharing on Software Engineering
 # some information about the slides, markdown enabled
 monaco: true
 info: |
-  ## Type System within TypeScript
+  ## Sharing on the Software Engineering Career
 
-  Explore a powerful type system through this talk if you have never used TypeScript before.
+  A fresh graduate perspective
 
-  by Ziyang Zeng
+  by Tong Hui Kang
 ---
 
 # <span class="golden-font">Sharing</span> on <span class="golden-font"> <br> Software Engineering</span>
@@ -55,13 +55,13 @@ Tong Hui Kang
     - H3-SRP on Merkle-Damgard construction
     - SSEF Merit with Integer factorisation with a sum of four squares
     - Do consult me for code-based project ideas
-  - See my notes on owlcove.sg
+  - See my A level notes on [owlcove.sg](https://owlcove.sg/learn)
 - Technical Internships
   - 3 companies over 8 months full-time and 8 months part-time
 - Interview experience
   - Interviewed with a total of 6 companies
   - Incoming Quora Software Engineer
-- See [resume](https://resume.huikang.dev) and [blog](https://blog.huikang.dev)
+- See my [resume](https://resume.huikang.dev) and [blog](https://blog.huikang.dev)
 
 ---
 
@@ -113,9 +113,9 @@ Tong Hui Kang
 # Interesting projects
 <br>
 
-- Timetable scheduling
+- Timetable scheduling [TODO]
   - Given constraints, suggest a timetable for the school
-- Game AI playing Snake
+- Game AI playing Snake [TODO]
   - Train an AI to play snake
 
 <!-- To add images, hopefully my friends can build the Snake game in time -->
@@ -244,12 +244,12 @@ Software engineering basics is required of all engineers, after which they can s
 # Addressing the perceptions of software engineering
 <br>
 
-- Software can be written by the lowest bidder
+- Software can be written by the lowest bidder [TODO]
   - Vietnamese graduate salaries
   - https://www.csc.gov.sg/articles/how-to-build-good-software
-- Some day we will not need software engineers anymore
+- Some day we will not need software engineers anymore [TODO]
   - https://www.commitstrip.com/en/2016/08/25/a-very-comprehensive-and-precise-spec/
-- The varying software engineering environments in Singapore
+- The varying software engineering environments in Singapore [TODO]
   - http://elijames.org/the-two-tiers-of-singapores-tech-companies/
 
 
@@ -412,8 +412,10 @@ Fun fact - I implemented my integer factorisation algorithm on Excel, should hav
 ---
 
 # Summary
+<br>
 
 - Software engineering is cool and rewarding
+- What software engineering actually is
 - Steps to prepare for a software engineering career
 
 ---
@@ -424,6 +426,13 @@ class: text-center
 # Thank You
 
 [This slides](https://tonghuikang.github.io/swe-sharing) and [source](https://github.com/tonghuikang/swe-sharing)
+
+
+---
+
+# Readings
+
+[How to Build Good Software](https://www.csc.gov.sg/articles/how-to-build-good-software) by Li Hongyi
 
 
 ---

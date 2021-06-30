@@ -21,6 +21,8 @@ info: |
 
 # <span class="golden-font">Type</span> System within <span class="golden-font">Type</span>Script
 
+Test edit
+
 Ziyang: Explore the Rich Expressiveness from a Powerful Type System!
 
 <div class="pt-12">

@@ -8,7 +8,7 @@ background: ./images/typescript-bg.png
 class: 'text-center'
 # https://sli.dev/custom/highlighters.html
 highlighter: shiki
-title: Type System within TypeScript
+title: Sharing on Software Engineering
 # some information about the slides, markdown enabled
 monaco: true
 info: |
@@ -19,21 +19,20 @@ info: |
   by Ziyang Zeng
 ---
 
-# <span class="golden-font">Type</span> System within <span class="golden-font">Type</span>Script
+# <span class="golden-font">Sharing</span> on <span class="golden-font"> <br> Software Engineering</span>
 
-Test edit 2
-
-Ziyang: Explore the Rich Expressiveness from a Powerful Type System!
+Tong Hui Kang
 
 <div class="pt-12">
   <span @click="$slidev.nav.next" class="px-2 p-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
-    Start the journey <carbon:arrow-right class="inline"/>
+    Press Space to advance slides <carbon:arrow-right class="inline"/>
   </span>
 </div>
 
+
 <div
   class="abs-bl m-6 text-sm opacity-50">
-  Jun 2021 @ Hotstar
+  16 July 2021
 </div>
 
 <style>
@@ -46,6 +45,360 @@ Ziyang: Explore the Rich Expressiveness from a Powerful Type System!
   -moz-text-fill-color: transparent;
 }
 </style>
+---
+
+# Personal Introduction
+
+- SUTD student 2017-2021, Engineering Systems and Design
+- AJC student 2013-2014, PCME
+  - Project Eureka
+    - H3-SRP on Merkle-Damgard construction
+    - SSEF Merit with Integer factorisation with a sum of four squares
+    - Do consult me for code-based project ideas
+  - See my notes on owlcove.sg
+- Technical Internships
+  - 3 companies over 8 months full-time and 8 months part-time
+- Interview experience
+  - Interviewed with a total of 6 companies
+  - Incoming Quora Software Engineer
+- See [resume](https://resume.huikang.dev) and [blog](https://blog.huikang.dev)
+
+---
+
+
+<div style="position: absolute; bottom: 50px;">
+
+# What is <span class="ts-title">Software Engineering</span>?
+
+- Is it all about writing code?
+- It is interesting?
+- Is there job security?
+- Can I improve humankind?
+
+</div>
+
+<style>
+.ts-title {
+  background-image: linear-gradient(45deg, #4EC5D4, #146b8c);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.golden-font {
+  background-image: linear-gradient(45deg, #f9b208, #f98404);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+</style>
+
+
+---
+
+# Introduction
+
+- Motivation of this talk
+  - To inform what software engineering is like
+  - To describe the expectations of a technical career
+  - To encourage more Singaporeans into software engineering
+
+---
+
+# Interesting projects
+
+- Timetable scheduling
+  - Given constraints, suggest a timetable for the school
+- Game AI playing Snake
+  - Train an AI to play snake
+
+<!-- To add images, hopefully my friends can build the Snake game in time -->
+
+---
+
+# The appeal of working in software engineering
+
+<!-- Here I explain my main motivation for working on software engineering. It is easy to explain how doctors, lawyers or teachers add value to society and find joy in the profession. -->
+
+- The power to create
+  - Software engineering is very accessible.
+  <!-- If you have your computer, you can put together a technical solution at a very low cost. You can get feedback for your creation with stakeholders. -->
+  - You can create anything with code.
+  <!-- If you want to implement an essay completion algorithm, you can follow resources available online to reproduce the results, modify them for your application or improve on the model. -->
+- The potential to serve millions or billions
+  - A small scale projects can help you and your friends
+  - A large scale project (with a company) can help millions or billions
+  <!-- It is easy to build something. Getting people to use is hard. Asking people to pay is harder -->
+- Huge opportunity
+  - The most popular courses professions - medicine and law are increasingly using technology.
+  - Successful companies need to be able to develop and use their own technology.
+- Renumeration
+  - One of the highest paid jobs after university education is software engineering.
+
+---
+
+# Workflow of a technical role
+
+Code is usually packed in repositories. How are the repositories are edited
+
+- Identify what to solve
+  - Could be adding a simple feature, fixing an issue
+  - These plans could be made at the start of the week
+- Make a copy of the code (Creating a branch)
+- Make edits and save edits (Making commits)
+- Propose to merge edits with the main version (Make pull request)
+  - Automated tests will be run to check if it breaks any existing tests
+- After code review, the proposed edits are approved and combined with the main version (Merge branch)
+- There may be a second round of checking by human testers and security analysts before it is deployed to serve customers live (production)
+
+<!-- It is true that the core of software engineering is coding. However, it is not about writing code all day. Here I want to give a perspective on what else goes into writing code. -->
+
+<!-- We see that editing code is a collaborative process. There is a lot of communication and planning involved. This is what differentiate software engineers. When you write code, your code needs to be robust and efficient, and it has to be read and edited by future developers. -->
+
+<!-- We also now have some sense of what measures the success of a software engineer. The number of lines written does not indicate the productivity or effectiveness of the software engineer. -->
+
+
+---
+
+<iframe width=100% height=480
+src="https://www.youtube.com/embed/rR4n-0KYeKQ"
+title="YouTube video player" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+
+
+# Tools used in a technical role
+
+<!-- Another perspective of software engineers I want to provide is based on the tools at the software engineer use. -->
+
+- Code editor
+  - You definitely need to write code, in some language, the editor helps to make that easier
+- Version control (git)
+  - You will be collaborating with other people on the code
+- Testing
+  - Your code needs to work, tests are written to ensure that they work
+- Automation
+  - Your code needs to be run on certain computers
+  - You need to configure the computer you are deploying on, and the deployment process
+- Documentation
+  - Other people need to understand your code and you need to explain what your code is doing
+
+---
+
+# Software engineering specialisations
+<br>
+
+Software engineering basics is required of all engineers, after which they can specialise in
+  - Frontend
+    - Writes the code that is run on your device (your phone, your computer)
+  - Backend
+    - Writes the code that is run on the company's computers (storing information, execute logic)
+  - Data science / Machine learning / Artificial intelligence
+    - Research, design and build predictive models
+    <!-- - Engineering track and Research track
+      - Research roles usually require Masters / PhD and require reading applying research papers -->
+  - Data engineer
+    - Prepare data for analysis or operations
+  - Security engineer
+    - Analyse whether the practices adhere to security standards
+
+---
+
+# Alternate classification of software engineering
+
+- Note on specialisations
+  - Different people have different definitions
+  - Other classifications may be useful
+    - "Code-first" vs "Product-first"
+      https://medium.com/@zachlloyd/code-first-vs-product-first-a086d982b7d0
+
+---
+
+# The tech landscape in Singapore
+<br>
+
+There is a common perception that engineering in Singapore is undervalued. I would like to provide a better insight into the following points.
+
+- Salaries
+  - Graduate starting salaries (Ref TBC)
+  - Waterloo survey
+    https://uw-se-2020-class-profile.github.io/profile.pdf
+  - Levels.fyi and Singapore equivalent
+  - Geographical variation
+- Career progression
+  - Expectations at each level
+  - https://www.quora.com/What-is-the-expectation-out-of-each-software-engineering-level-at-Facebook/answer/Dima-Korolev
+  - Software engineering is a collaborative process
+
+---
+# Addressing the perceptions of software engineering
+<br>
+
+- Software can be written by the lowest bidder
+  - Vietnamese graduate salaries
+  - https://www.csc.gov.sg/articles/how-to-build-good-software
+- Some day we will not need software engineers anymore
+  - https://www.commitstrip.com/en/2016/08/25/a-very-comprehensive-and-precise-spec/
+- The varying software engineering environments in Singapore
+  - http://elijames.org/the-two-tiers-of-singapores-tech-companies/
+
+
+---
+# Market of software engineering
+
+- Company types [TODO]
+  - Big tech companies
+  - Banks
+  - Government
+  - Consultancies
+- Size of the Talent pool [TODO]
+  - NUS CS, NTU CS enrolment, total IT enrolment
+  - Compared to how many open roles and internships in the companies
+- FAANG-tier - Google / Facebook / Bytedance / Indeed / Stripe / Paypal
+  - Google SWE interns on average have two prior internships at tech companies
+  - More than half of Google / Facebook new graduate hires interned in Google / Facebook before
+- Established tech companies - Grab / Go-Jek / etc
+  - More than half of the interns have a strong prior internship
+  - All new graduate hire at least have a prior internship at tech companies
+- Empirical data is hard to find
+  - The only empirical data is graduate starting salaries for each course
+
+---
+
+# The technical hiring process
+<br>
+
+<!-- Here I provide some long-term advice on how to prepare for a technical career. I will address this from the perspective of how hiring manager and recruiters choose among candidates. -->
+
+
+What I describe here probably applies to all professional roles as well
+
+- The hiring process
+  - Resume screen > Online assessments > Technical Interviews > Offer
+  - You need to get pass the prior stage before going on to the next stage
+
+---
+
+## How to pass the resume filter
+<br>
+
+Primary filters
+- University name and course
+- Internships / Work Experience
+  <!-- - Usually, your course requires you to complete an internship
+  - Internship will be the main differentiator of resumes
+  - Recruiters will judge the quality of your internship experience
+  - An endorsement by another company is a strong signal to allow your resume through the first filter
+  - Spend your first summer doing a technical internship, you need to start somewhere -->
+
+Tie breakers
+- Projects
+  <!-- - Project choice
+    - Something that interests you, start small and get advice
+  - Document and explain the project
+    - Writing helps to consolidate what you have learnt
+    - Others cannot appreciate if you cannot show and explain what you are doing
+  - Maintain a blog -->
+- Certifications
+  <!-- - Cloud Certificates (GCP, AWS)
+  - Security Certificates (OSCP) -->
+- Competitions
+
+
+---
+
+## How to pass the online assessment
+
+- Practise coding questions
+  - [Leetcode](https://leetcode.com), [BinarySearch](https://binarysearch.com)
+  - Leetcode has weekly contests that simulate how online assessments work
+
+## How to pass the coding interview
+
+- Mock interviews
+  - The best way to practise for an interview is to go for a real interview
+  - The next best way is to practise interviewing with your friend
+
+
+
+---
+
+<iframe width=100% height=480
+src="https://www.youtube.com/embed/pKO9UjSeLew"
+title="YouTube video player" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+
+# What you can do in university
+<br>
+
+- Choose a information systems related course
+- Do a technical internship in every summer break if possible
+  - Your application is stronger with technical internships
+  - Your first internship is unlikely to be prestigious
+  - You are not expected to do part-time internship while studying
+- Take on technical projects
+  - Course projects are fine if there is some degree of innovation
+  - After the project, document the achievements and summarise what you have learnt
+- Practise for online assessments and coding interviews
+
+---
+
+# What you can do after Junior College
+<br>
+
+You might want to find out if coding is for you
+- My suggestion is to learn Python and solve simple algorithmic tasks
+  - I think [CodeSignal Arcade](https://app.codesignal.com/arcade/python-arcade/meet-python) introduces the concepts step by step
+  - Online videos are fine too
+  - Start with Python, rather than say Android programming
+- Coding bootcamps
+  - Singaporeans might be eligible for massive discounts
+
+If you like coding and have a lot of time
+- Start competitive programming (Leetcode contests, Codeforces)
+  <!-- I should have practised competitive programming in NS -->
+- Kaggle data science competitions
+- Build coding projects (start simple)
+
+---
+
+# What if you need to code for your research project
+<br>
+
+If you need to write code for a JC science project (presumably done over the December break)
+
+- Could I have learnt Python?
+  - Coding and computer science was not a thing back then
+  - Resources
+- Could you learn to code over the December break?
+  - Possible, but requires a strong commitment
+  - Great if at least one of you knows already how to code
+  - Your mentor can advise
+- Fun fact [TODO]
+  - I implemented my integer factorisation algorithm on Excel
+
+---
+
+# Summary
+
+- Software engineering is cool and rewarding
+- Steps to prepare for a software engineering career
+
+---
+
+# Slide Templates
+
+The following slides were from https://github.com/dizys/talk-type-system-in-typescript
+
+I may use some of the styles.
+
 ---
 
 # Type System
@@ -87,40 +440,6 @@ A relation between types. e.g., `{a, b, c}` is a subtype of `{a, c}`, `a|c` is a
 
 </div>
 </div>
-
----
-
-
-<div style="position: absolute; bottom: 50px;">
-
-# What is <a target="_blank" href="https://www.typescriptlang.org"><span class="ts-title">TypeScript</span></a>?
-
-- TypeScript ≈ <ins>JavaScript</ins> + <ins>static typing</ins>
-- Superset of JavaScript that transpiles to JavaScript
-- Expressive type system with <span class="golden-font">SOA</span> type inference capabilities
-- "JavaScript that scales."
-
-</div>
-
-<style>
-.ts-title {
-  background-image: linear-gradient(45deg, #4EC5D4, #146b8c);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-}
-
-.golden-font {
-  background-image: linear-gradient(45deg, #f9b208, #f98404);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-}
-</style>
 
 ---
 

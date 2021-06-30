@@ -255,6 +255,7 @@ Software engineering basics is required of all engineers, after which they can s
 
 ---
 # The software engineering market
+<br>
 
 - Company types [TODO]
   - Big tech companies
@@ -271,6 +272,7 @@ Software engineering basics is required of all engineers, after which they can s
 
 ---
 # Data on the software engineering market
+<br>
 
 - Size of the Talent pool [TODO]
   - NUS CS, NTU CS enrolment, total IT enrolment

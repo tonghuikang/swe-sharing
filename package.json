@@ -1,13 +1,13 @@
 {
-  "name": "talk-type-system-in-typescript",
+  "name": "swe-sharing",
   "version": "1.0.0",
-  "repository": "git@github.com:dizys/talk-type-system-in-typescript.git",
+  "repository": "git@github.com:tonghuikang/swe-sharing.git",
   "author": "Dizy <dev@dizy.cc>",
   "license": "GPL-3.0",
   "private": true,
   "scripts": {
     "dev": "slidev --open",
-    "build": "slidev build --base /talk-type-system-in-typescript/",
+    "build": "slidev build --base /swe-sharing/",
     "test-build": "slidev build",
     "test-start": "http-server dist"
   },

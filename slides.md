@@ -409,7 +409,7 @@ If you need to write code for a JC science project (presumably done over the Dec
 
 Fun fact - I implemented my integer factorisation algorithm on Excel, should have done it in Python
 
-![image](./algorithm.png)
+<img src="https://tonghuikang.github.io/swe-sharing/images/algorithm.png"/>
 
 ---
 

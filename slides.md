@@ -409,7 +409,7 @@ If you need to write code for a JC science project (presumably done over the Dec
 
 Fun fact - I implemented my integer factorisation algorithm on Excel, should have done it in Python
 
-![image](assets/algorithm.png)
+![image](./algorithm.png)
 
 ---
 
@@ -436,6 +436,7 @@ class: text-center
 
 [How to Build Good Software](https://www.csc.gov.sg/articles/how-to-build-good-software) by Li Hongyi
 
+[TODO]
 
 ---
 

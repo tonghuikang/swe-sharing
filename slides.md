@@ -12,7 +12,7 @@ title: Sharing on Software Engineering
 # some information about the slides, markdown enabled
 monaco: true
 info: |
-  ## Sharing on the Software Engineering Career
+  ## Sharing on Software Engineering
 
   A fresh graduate perspective
 
@@ -49,13 +49,13 @@ A perspective of a fresh graduate<br>Tong Hui Kang
 ---
 
 # Personal Introduction
+<br>
 
 - SUTD student 2017-2021, Engineering Systems and Design
 - AJC student 2013-2014, PCME
-  - Project Eureka
+  - Project Eureka (STEM Inc predecessor)
     - H3-SRP on Merkle-Damgard construction
-    - SSEF Merit with Integer factorisation with a sum of four squares
-    - Do consult me for code-based project ideas
+    - SSEF Merit with integer factorisation with a sum of four squares
   - See my A level notes on [owlcove.sg](https://owlcove.sg/learn)
 - Technical Internships
   - 3 companies totalling over 8 months full-time and 8 months part-time
@@ -66,14 +66,25 @@ A perspective of a fresh graduate<br>Tong Hui Kang
 
 ---
 
+# Introduction
+<br>
+
+- Motivation of this talk
+  - To inform what Software Engineering is like
+  - To describe the expectations of a technical career
+  - To encourage more Singaporeans into Software Engineering
+  - To provide advice on how to enter the field of Software Engineering
+
+---
+
 
 <div style="position: absolute; bottom: 50px;">
 
 # What is <span class="ts-title">Software Engineering</span>?
 
-- Is it all about writing code?
-- It is interesting? Is it boring?
-- What impact do I have on the world?
+- What is the appeal?
+- What is the work of Software Engineer like?
+
 
 </div>
 
@@ -99,17 +110,6 @@ A perspective of a fresh graduate<br>Tong Hui Kang
 
 ---
 
-# Introduction
-<br>
-
-- Motivation of this talk
-  - To inform what software engineering is like
-  - To describe the expectations of a technical career
-  - To encourage more Singaporeans into software engineering
-  - To provide advice on how to enter the field of software engineering
-
----
-
 # Why Computing
 
 <iframe
@@ -122,13 +122,13 @@ A perspective of a fresh graduate<br>Tong Hui Kang
 
 ---
 
-# The appeal of working in software engineering
+# The appeal of working in Software Engineering
 <br>
 
-<!-- Here I explain my main motivation for working on software engineering. It is easy to explain how doctors, lawyers or teachers add value to society and find joy in the profession. -->
+<!-- Here I explain my main motivation for working on Software Engineering. It is easy to explain how doctors, lawyers or teachers add value to society and find joy in the profession. -->
 
 - The power to create
-  - Software engineering is very accessible
+  - Software Engineering is very accessible
   <!-- If you have your computer, you can put together a technical solution at a very low cost. You can get feedback for your creation with stakeholders. -->
   - You can create anything with code
   <!-- If you want to implement an essay completion algorithm, you can follow resources available online to reproduce the results, modify them for your application or improve on the model. -->
@@ -140,7 +140,7 @@ A perspective of a fresh graduate<br>Tong Hui Kang
   - The most popular courses professions - medicine and law are increasingly using technology
   - Successful companies need to be able to develop and use their own technology
 - Renumeration
-  - One of the highest paid jobs after university education is software engineering
+  - One of the highest paid jobs right after undergraduate education is Software Engineering
 
 
 ---
@@ -153,7 +153,7 @@ allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pic
 ---
 
 
-# Workflow of a technical role
+# How Software Engineers collaborate
 <br>
 
 Code is usually packed in repositories. How are the repositories are edited
@@ -167,13 +167,13 @@ Code is usually packed in repositories. How are the repositories are edited
   - Automated tests will be run to check if it breaks any existing tests
 - After code review, the proposed edits are approved and combined with the main version (Merge branch), and then deployed live to serve customers (Push to Production)
 
-Takeaway - writing code is a **collaborative** and **long-term process**
+Takeaway - building software is a **collaborative** and **iterative** process
 
-<!-- It is true that the core of software engineering is coding. However, it is not about writing code all day. Here I want to give a perspective on what else goes into writing code. -->
+<!-- It is true that the core of Software Engineering is coding. However, it is not about writing code all day. Here I want to give a perspective on what else goes into writing code. -->
 
-<!-- We see that editing code is a collaborative process. There is a lot of communication and planning involved. This is what differentiate software engineers. When you write code, your code needs to be robust and efficient, and it has to be read and edited by future developers. -->
+<!-- We see that editing code is a collaborative process. There is a lot of communication and planning involved. This is what differentiate Software Engineers. When you write code, your code needs to be robust and efficient, and it has to be read and edited by future developers. -->
 
-<!-- We also now have some sense of what measures the success of a software engineer. The number of lines written does not indicate the productivity or effectiveness of the software engineer. -->
+<!-- We also now have some sense of what measures the success of a Software Engineer. The number of lines written does not indicate the productivity or effectiveness of the Software Engineer. -->
 
 
 ---
@@ -181,7 +181,7 @@ Takeaway - writing code is a **collaborative** and **long-term process**
 
 # Tools used in a technical role
 <br>
-<!-- Another perspective of software engineers I want to provide is based on the tools at the software engineer use. -->
+<!-- Another perspective of Software Engineers I want to provide is based on the tools at the Software Engineer use. -->
 
 - Code editor
   - You definitely need to write code, in some language, the editor helps to make that easier
@@ -197,10 +197,42 @@ Takeaway - writing code is a **collaborative** and **long-term process**
 
 ---
 
-# Software engineering specialisations
+<div style="position: absolute; bottom: 50px;">
+
+# What are the <span class="ts-title">various roles</span> of Software Engineering?
+
+- What are the different types of Software Engineering?
+- How do Software Engineer advance in their careers?
+- How is the market for Software Engineers like in Singapore?
+
+
+</div>
+
+<style>
+.ts-title {
+  background-image: linear-gradient(45deg, #4EC5D4, #146b8c);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+.golden-font {
+  background-image: linear-gradient(45deg, #f9b208, #f98404);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+</style>
+
+---
+
+# Software Engineering specialisations
 <br>
 
-Software engineering basics is required of all engineers, after which they can specialise in
+Software Engineering basics is required of all engineers, after which they can specialise in
   - Frontend
     - Writes the code that is run on your device (your phone, your computer)
   - Backend
@@ -216,9 +248,8 @@ Software engineering basics is required of all engineers, after which they can s
 
 ---
 
-# Alternate classification of software engineering
+# Alternate classification of Software Engineering
 <br>
-
 
 - ["Code-first" vs "Product-first"](https://medium.com/@zachlloyd/code-first-vs-product-first-a086d982b7d0)
   - There are programmers who care more about code
@@ -228,22 +259,6 @@ Software engineering basics is required of all engineers, after which they can s
 Takeaways
   - There is diversity in the psychological profiles even within a specialisation
   - Do consider more factors when choosing your career or role
-
-
----
-
-# The tech landscape in Singapore
-<br>
-
-<!-- There is a common perception that engineering in Singapore is undervalued. I would like to provide a better insight into the following points. -->
-
-[Graduate Starting Salaries](https://www.straitstimes.com/singapore/new-graduates-from-4-local-universities-earned-higher-starting-salaries-but-more-working) (Median Gross Monthly Salary)
-  - All full-time permament employed undergraduates - $3,700
-  - Undergraduates from information and digital technologies - $4,760
-
-Starting Salaries for Selected Companies
-  - [Shopee](https://nodeflair.com/companies/shopee/salaries/software_engineer-junior) - $6000
-  - [ByteDance](https://www.levels.fyi/comp.html?track=Software%20Engineer&search=Bytedance&region=Singapore&yoestart=0&yoeend=1&yoeradio=New%20Grad) - $6600
 
 
 ---
@@ -258,24 +273,46 @@ Responsibilites and Expectations increase with [each](https://blog.tryexponent.c
 - Staff Software Engineer - Lead the engineering team and coordinate with other teams
 - Principal Software Engineer - Lead multiple teams and influence business strategy
 
+
 ---
 
-# Addressing the perceptions of software engineering
+# The tech landscape in Singapore
 <br>
 
-- Software engineering is boring
+<!-- There is a common perception that engineering in Singapore is undervalued. I would like to provide a better insight into the following points. -->
+
+[Graduate starting salaries](https://www.straitstimes.com/singapore/new-graduates-from-4-local-universities-earned-higher-starting-salaries-but-more-working) (Median gross monthly salary)
+  - All full-time permament employed undergraduates - $3700
+  - Undergraduates who studied information and digital technologies - $4760
+
+Starting salaries for selected companies
+  - [DBS](https://www.nodeflair.com/companies/dbs-bank/salaries/software_engineer-junior) - $5500
+  - [Shopee](https://nodeflair.com/companies/shopee/salaries/software_engineer-junior) - $6000
+  - [Facebook](https://www.levels.fyi/comp.html?track=Software%20Engineer&search=Facebook&region=Singapore&yoestart=0&yoeend=1&yoeradio=New%20Grad) $7600
+  - These figures should be considered with the number of available openings
+
+Annual enrollment of computing-related courses
+  - [NUS](https://www.nus.edu.sg/registrar/student-records/student-statistics) 1200, [NTU](https://www.ntu.edu.sg/about-us/facts-figures/total-graduate-output---first-degree-higher-degree) 1000, [SMU](https://www.smu.edu.sg/sites/default/files/smu/statistical_highlights_20200914_1.pdf) 250, SUTD 180
+
+---
+
+
+# Addressing the perceptions of Software Engineering
+<br>
+
+- Software Engineering is boring
   - Yes it is
 - Software can be written by the lowest bidder [TODO]
   - Vietnamese graduate salaries
   - https://www.csc.gov.sg/articles/how-to-build-good-software
-- Some day we will not need software engineers anymore [TODO]
+- Some day we will not need Software Engineers anymore [TODO]
   - https://www.commitstrip.com/en/2016/08/25/a-very-comprehensive-and-precise-spec/
-- The varying software engineering environments in Singapore [TODO]
+- The varying Software Engineering environments in Singapore [TODO]
   - http://elijames.org/the-two-tiers-of-singapores-tech-companies/
 
 
 ---
-# The software engineering market
+# The Software Engineering market
 <br>
 
 - Company types [TODO]
@@ -292,15 +329,36 @@ Responsibilites and Expectations increase with [each](https://blog.tryexponent.c
 
 
 ---
-# Data on the software engineering market
-<br>
 
-- Size of the Talent pool [TODO]
-  - NUS CS, NTU CS enrolment, total IT enrolment
-  - Compared to how many open roles and internships in the companies
-- Empirical data is hard to find
-  - The only empirical data is graduate starting salaries for each course
+<div style="position: absolute; bottom: 50px;">
 
+# How do I <span class="ts-title">prepare</span> for a role in Software Engineering?
+
+- How do companies hire?
+- What do I need to do to make my job application competitive?
+- Where can I start?
+
+
+</div>
+
+<style>
+.ts-title {
+  background-image: linear-gradient(45deg, #4EC5D4, #146b8c);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+.golden-font {
+  background-image: linear-gradient(45deg, #f9b208, #f98404);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+</style>
 
 ---
 
@@ -381,24 +439,10 @@ allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pic
     - Anywhere with a developer you can learn from is fine
 - Take on technical projects
   - Course projects are fine if there is some degree of innovation
-  - After the project, document the achievements and summarise what you have learnt
+  - Document the achievements and summarise what you have learnt
 - Practise for online assessments and coding interviews
 - Network and share resources
   - For all my internships, referrals helped to get me an interview
-
----
-
-# My Story
-<br>
-
-- Admission into SUTD, no prior coding experience
-- Participated in a Hackathon on Fake News
-  - where I found my interest in natural language processing
-- Internships
-  - where I found my strong preference for a technical role
-  - where I understood how software engineering is actually like
-- Competitive programming - currently top 6000 on Codeforces
-- Quora Programming Contest 2021 - won a T-shirt, interview and offer
 
 ---
 
@@ -413,7 +457,7 @@ You might want to find out if coding is for you
 - Coding bootcamps
   - Singaporeans might be eligible for massive discounts
 
-If you like coding and have a lot of time
+If you like coding and have a lot of time, for example during National Service
 - Competitive programming (Leetcode contests, Codeforces)
   <!-- I should have practised competitive programming in NS -->
 - Kaggle data science competitions
@@ -429,7 +473,7 @@ If you need to write code for a JC science project (presumably done over the Dec
 - Consider if you need to write code
   - Basic data analysis (e.g. R-value) could be done on Excel
   - Algorithms could be done with code
-- Choose Python
+- Choose Python if possible
   - It is easy to pick up and learn
 - How to fix your code
   - Start with a working copy
@@ -439,33 +483,70 @@ If you need to write code for a JC science project (presumably done over the Dec
 
 ---
 
-# Whether software engineering is for you
+# This could have been done with code
+<br>
+
+Fun fact - I implemented my integer factorisation algorithm on Excel, should have done it in Python
+
+![algorithm](https://i.imgur.com/SeCDkiC.png)
+
+---
+
+# My Story
+<br>
+
+- Admission into SUTD with no prior coding experience
+- Participated in a [Hackathon](https://www.straitstimes.com/singapore/tertiary-students-come-up-with-innovative-ideas-to-tackle-fake-news) on Fake News
+  - where I found my interest in natural language processing
+- [Internships](https://blog.huikang.dev/2021/05/14/internship-reflections.html)
+  - where I found my strong preference for a technical role
+  - where I understood how Software Engineering is actually like
+- Competitive programming - currently [top 6000](https://codeforces.com/profile/huikang) on Codeforces
+- Quora Programming Contest 2021 - won a [T-shirt](https://challenge.quora.com/Division-2-End-Final-Results), interview and offer
+
+---
+
+# Whether Software Engineering is for you
 
 <iframe
   width="672" height="378"
-  src="https://www.youtube.com/embed/zQSqJRdWY-o?start=214&end=297"
+  src="https://www.youtube.com/embed/zQSqJRdWY-o?start=214&end=296"
   title="YouTube video player" frameborder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
   allowfullscreen></iframe>
 
 ---
 
-# This could have been done with code
-<br>
+<div style="position: absolute; bottom: 50px;">
 
-Fun fact - I implemented my integer factorisation algorithm on Excel, should have done it in Python
+# <span class="ts-title">Summary</span>
+
+- Software Engineering is cool and rewarding
+- What Software Engineering actually is
+- Steps to prepare for a Software Engineering career
 
 
-![algorithm](https://i.imgur.com/SeCDkiC.png)
+</div>
 
----
+<style>
+.ts-title {
+  background-image: linear-gradient(45deg, #4EC5D4, #146b8c);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+.golden-font {
+  background-image: linear-gradient(45deg, #f9b208, #f98404);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+</style>
 
-# Summary
-<br>
-
-- Software engineering is cool and rewarding
-- What software engineering actually is
-- Steps to prepare for a software engineering career
 
 ---
 layout: center
@@ -474,23 +555,29 @@ class: text-center
 
 # Thank You
 
-[This slides](https://tonghuikang.github.io/swe-sharing) and [source code](https://github.com/tonghuikang/swe-sharing)
+[These slides](https://tonghuikang.github.io/swe-sharing) and [source code](https://github.com/tonghuikang/swe-sharing)
 
 
 ---
 
-# Readings
+# Readings on Software Engineering
+<br>
 
 [How to Build Good Software](https://www.csc.gov.sg/articles/how-to-build-good-software) by Li Hongyi
 
-[The two tiers of Singapore's tech companies](http://elijames.org/the-two-tiers-of-singapores-tech-companies/) by Eli James
+[The Two Tiers of Singapore's tech companies](http://elijames.org/the-two-tiers-of-singapores-tech-companies/) by Eli James
 
 [Software Engineering at Google](https://abseil.io/resources/swe_at_google.2.pdf) by Titus Winters et. al.
+
+[Code-first vs. Product-first](https://medium.com/@zachlloyd/code-first-vs-product-first-a086d982b7d0) by Zach Lloyd
 
 [Stop just using “Frontend” or “Backend” to describe the Engineering you like](https://medium.com/@michlim97/stop-just-using-frontend-or-backend-to-describe-the-engineering-you-like-e8c392956ada) by Michelle Lim
 
 
-Career preparation
+---
+
+# Readings on SWE career preparation
+<br>
 
 [Evolution of Resumes - My journey through NUS Computer Science](https://luyangkenneth.github.io/evolution-of-resumes/) by Kenneth Lu
 

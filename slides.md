@@ -19,9 +19,10 @@ info: |
   by Tong Hui Kang
 ---
 
+
 # <span class="golden-font">Sharing</span> on <span class="golden-font"> <br> Software Engineering</span>
 
-Tong Hui Kang
+A perspective of a fresh graduate<br>Tong Hui Kang
 
 <div class="pt-12">
   <span @click="$slidev.nav.next" class="px-2 p-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
@@ -57,7 +58,7 @@ Tong Hui Kang
     - Do consult me for code-based project ideas
   - See my A level notes on [owlcove.sg](https://owlcove.sg/learn)
 - Technical Internships
-  - 3 companies over 8 months full-time and 8 months part-time
+  - 3 companies totalling over 8 months full-time and 8 months part-time
 - Interview experience
   - Interviewed with a total of 6 companies
   - Incoming Quora Software Engineer
@@ -71,9 +72,8 @@ Tong Hui Kang
 # What is <span class="ts-title">Software Engineering</span>?
 
 - Is it all about writing code?
-- It is interesting?
-- Is there job security?
-- Can I improve humankind?
+- It is interesting? Is it boring?
+- What impact do I have on the world?
 
 </div>
 
@@ -86,7 +86,6 @@ Tong Hui Kang
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
-
 .golden-font {
   background-image: linear-gradient(45deg, #f9b208, #f98404);
   background-size: 100%;
@@ -107,18 +106,19 @@ Tong Hui Kang
   - To inform what software engineering is like
   - To describe the expectations of a technical career
   - To encourage more Singaporeans into software engineering
+  - To provide advice on how to enter the field of software engineering
 
 ---
 
-# Interesting projects
-<br>
+# Why Computing
 
-- Timetable scheduling [TODO]
-  - Given constraints, suggest a timetable for the school
-- Game AI playing Snake [TODO]
-  - Train an AI to play snake
+<iframe
+  width="672" height="378"
+  src="https://www.youtube.com/embed/zQSqJRdWY-o?start=0&end=70"
+  title="YouTube video player" frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen></iframe>
 
-<!-- To add images, hopefully my friends can build the Snake game in time -->
 
 ---
 
@@ -128,21 +128,30 @@ Tong Hui Kang
 <!-- Here I explain my main motivation for working on software engineering. It is easy to explain how doctors, lawyers or teachers add value to society and find joy in the profession. -->
 
 - The power to create
-  - Software engineering is very accessible.
+  - Software engineering is very accessible
   <!-- If you have your computer, you can put together a technical solution at a very low cost. You can get feedback for your creation with stakeholders. -->
-  - You can create anything with code.
+  - You can create anything with code
   <!-- If you want to implement an essay completion algorithm, you can follow resources available online to reproduce the results, modify them for your application or improve on the model. -->
 - The potential to serve millions or billions
   - A small scale projects can help you and your friends
   - A large scale project (with a company) can help millions or billions
   <!-- It is easy to build something. Getting people to use is hard. Asking people to pay is harder -->
 - Huge opportunity
-  - The most popular courses professions - medicine and law are increasingly using technology.
-  - Successful companies need to be able to develop and use their own technology.
+  - The most popular courses professions - medicine and law are increasingly using technology
+  - Successful companies need to be able to develop and use their own technology
 - Renumeration
-  - One of the highest paid jobs after university education is software engineering.
+  - One of the highest paid jobs after university education is software engineering
+
 
 ---
+
+<iframe width=100% height=480
+src="https://www.youtube.com/embed/rR4n-0KYeKQ"
+title="YouTube video player" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+
 
 # Workflow of a technical role
 <br>
@@ -156,8 +165,9 @@ Code is usually packed in repositories. How are the repositories are edited
 - Make edits and save edits (Making commits)
 - Propose to merge edits with the main version (Make pull request)
   - Automated tests will be run to check if it breaks any existing tests
-- After code review, the proposed edits are approved and combined with the main version (Merge branch)
-- There may be a second round of checking by human testers and security analysts before it is deployed to serve customers live (production)
+- After code review, the proposed edits are approved and combined with the main version (Merge branch), and then deployed live to serve customers (Push to Production)
+
+Takeaway - writing code is a **collaborative** and **long-term process**
 
 <!-- It is true that the core of software engineering is coding. However, it is not about writing code all day. Here I want to give a perspective on what else goes into writing code. -->
 
@@ -165,13 +175,6 @@ Code is usually packed in repositories. How are the repositories are edited
 
 <!-- We also now have some sense of what measures the success of a software engineer. The number of lines written does not indicate the productivity or effectiveness of the software engineer. -->
 
-
----
-
-<iframe width=100% height=480
-src="https://www.youtube.com/embed/rR4n-0KYeKQ"
-title="YouTube video player" frameborder="0"
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
@@ -201,10 +204,10 @@ Software engineering basics is required of all engineers, after which they can s
   - Frontend
     - Writes the code that is run on your device (your phone, your computer)
   - Backend
-    - Writes the code that is run on the company's computers (storing information, execute logic)
+    - Writes the code that is run on the company's computers (storing and searching for information)
   - Data science / Machine learning / Artificial intelligence
     - Research, design and build predictive models
-    <!-- - Engineering track and Research track
+      <!-- - Engineering track and Research track
       - Research roles usually require Masters / PhD and require reading applying research papers -->
   - Data engineer
     - Prepare data for analysis or operations
@@ -216,11 +219,16 @@ Software engineering basics is required of all engineers, after which they can s
 # Alternate classification of software engineering
 <br>
 
-- Note on specialisations
-  - Different people have different definitions
-  - Other classifications may be useful
-    - "Code-first" vs "Product-first"
-      https://medium.com/@zachlloyd/code-first-vs-product-first-a086d982b7d0
+
+- ["Code-first" vs "Product-first"](https://medium.com/@zachlloyd/code-first-vs-product-first-a086d982b7d0)
+  - There are programmers who care more about code
+  - There are programmers who care more about product
+  - "[Stop just using “frontend” or “backend” to describe the Engineering you like](https://blog.usejournal.com/stop-just-using-frontend-or-backend-to-describe-the-engineering-you-like-e8c392956ada)"
+
+Takeaways
+  - There is diversity in the psychological profiles even within a specialisation
+  - Do consider more factors when choosing your career or role
+
 
 ---
 
@@ -229,21 +237,34 @@ Software engineering basics is required of all engineers, after which they can s
 
 <!-- There is a common perception that engineering in Singapore is undervalued. I would like to provide a better insight into the following points. -->
 
-- Salaries [TODO]
-  - Graduate starting salaries (Ref TBC)
-  - Waterloo survey
-    https://uw-se-2020-class-profile.github.io/profile.pdf
-  - Levels.fyi and Singapore equivalent
-  - Geographical variation
-- Career progression [TODO]
-  - Expectations at each level
-  - https://www.quora.com/What-is-the-expectation-out-of-each-software-engineering-level-at-Facebook/answer/Dima-Korolev
-  - Software engineering is a collaborative process
+[Graduate Starting Salaries](https://www.straitstimes.com/singapore/new-graduates-from-4-local-universities-earned-higher-starting-salaries-but-more-working) (Median Gross Monthly Salary)
+  - All full-time permament employed undergraduates - $3,700
+  - Undergraduates from information and digital technologies - $4,760
+
+Starting Salaries for Selected Companies
+  - [Shopee](https://nodeflair.com/companies/shopee/salaries/software_engineer-junior) - $6000
+  - [ByteDance](https://www.levels.fyi/comp.html?track=Software%20Engineer&search=Bytedance&region=Singapore&yoestart=0&yoeend=1&yoeradio=New%20Grad) - $6600
+
 
 ---
+
+# The career ladder of Software Engineering
+<br>
+
+Responsibilites and Expectations increase with [each](https://blog.tryexponent.com/learn-software-engineering-levels-to-advance-your-career/) [level](https://www.quora.com/What-is-the-expectation-out-of-each-software-engineering-level-at-Facebook/answer/Dima-Korolev)
+- Software Engineer I - Write code and tests with under basic supervision
+- Software Engineer II - Make minor and implement design decisions without supervision.
+- Senior Software Engineer - Formulate new problems and manage work
+- Staff Software Engineer - Lead the engineering team and coordinate with other teams
+- Principal Software Engineer - Lead multiple teams and influence business strategy
+
+---
+
 # Addressing the perceptions of software engineering
 <br>
 
+- Software engineering is boring
+  - Yes it is
 - Software can be written by the lowest bidder [TODO]
   - Vietnamese graduate salaries
   - https://www.csc.gov.sg/articles/how-to-build-good-software
@@ -289,7 +310,7 @@ Software engineering basics is required of all engineers, after which they can s
 <!-- Here I provide some long-term advice on how to prepare for a technical career. I will address this from the perspective of how hiring manager and recruiters choose among candidates. -->
 
 
-What I describe here probably applies to all professional roles as well
+What I describe here probably applies to many professional roles as well
 
 - The hiring process
   - Resume screen > Online assessments > Technical Interviews > Offer
@@ -344,7 +365,7 @@ Tie breakers
 ---
 
 <iframe width=100% height=480
-src="https://www.youtube.com/embed/pKO9UjSeLew"
+src="https://www.youtube.com/embed/pKO9UjSeLew?start=0&end=146"
 title="YouTube video player" frameborder="0"
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -364,6 +385,20 @@ allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pic
 - Practise for online assessments and coding interviews
 - Network and share resources
   - For all my internships, referrals helped to get me an interview
+
+---
+
+# My Story
+<br>
+
+- Admission into SUTD, no prior coding experience
+- Participated in a Hackathon on Fake News
+  - where I found my interest in natural language processing
+- Internships
+  - where I found my strong preference for a technical role
+  - where I understood how software engineering is actually like
+- Competitive programming - currently top 6000 on Codeforces
+- Quora Programming Contest 2021 - won a T-shirt, interview and offer
 
 ---
 
@@ -404,6 +439,17 @@ If you need to write code for a JC science project (presumably done over the Dec
 
 ---
 
+# Whether software engineering is for you
+
+<iframe
+  width="672" height="378"
+  src="https://www.youtube.com/embed/zQSqJRdWY-o?start=214&end=297"
+  title="YouTube video player" frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen></iframe>
+
+---
+
 # This could have been done with code
 <br>
 
@@ -428,7 +474,7 @@ class: text-center
 
 # Thank You
 
-[This slides](https://tonghuikang.github.io/swe-sharing) and [source](https://github.com/tonghuikang/swe-sharing)
+[This slides](https://tonghuikang.github.io/swe-sharing) and [source code](https://github.com/tonghuikang/swe-sharing)
 
 
 ---
@@ -437,7 +483,23 @@ class: text-center
 
 [How to Build Good Software](https://www.csc.gov.sg/articles/how-to-build-good-software) by Li Hongyi
 
-[TODO]
+[The two tiers of Singapore's tech companies](http://elijames.org/the-two-tiers-of-singapores-tech-companies/) by Eli James
+
+[Software Engineering at Google](https://abseil.io/resources/swe_at_google.2.pdf) by Titus Winters et. al.
+
+[Stop just using “Frontend” or “Backend” to describe the Engineering you like](https://medium.com/@michlim97/stop-just-using-frontend-or-backend-to-describe-the-engineering-you-like-e8c392956ada) by Michelle Lim
+
+
+Career preparation
+
+[Evolution of Resumes - My journey through NUS Computer Science](https://luyangkenneth.github.io/evolution-of-resumes/) by Kenneth Lu
+
+[Tech Interview Handbook](https://github.com/yangshun/tech-interview-handbook) by Yangshun Tay et. al.
+
+[Frontend Interview Handbook](https://github.com/yangshun/front-end-interview-handbook) by Yangshun Tay et. al.
+
+[Software Engineering 2020 Class Profile of University of Waterloo](https://uw-se-2020-class-profile.github.io/profile.pdf) by Holly Oegema et. al.
+
 
 ---
 
@@ -446,6 +508,18 @@ class: text-center
 The following slides were from https://github.com/dizys/talk-type-system-in-typescript
 
 I may use some of the styles.
+
+---
+
+# Interesting projects
+<br>
+
+- Timetable scheduling [TODO]
+  - Given constraints, suggest a timetable for the school
+- Game AI playing Snake [TODO]
+  - Train an AI to play snake
+
+<!-- To add images, hopefully my friends can build the Snake game in time -->
 
 ---
 

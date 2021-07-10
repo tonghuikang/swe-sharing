@@ -54,7 +54,7 @@ A perspective of a fresh graduate<br>Tong Hui Kang
 - SUTD student 2017-2021, Engineering Systems and Design
 - AJC student 2013-2014, PCME
   - Project Eureka (STEM Inc predecessor)
-    - H3-SRP on Merkle-Damgard construction
+    - H3-SRP Merit on Merkle-Damgard construction
     - SSEF Merit with integer factorisation with a sum of four squares
   - See my A level notes on [owlcove.sg](https://owlcove.sg/learn)
 - Technical internships
@@ -132,10 +132,12 @@ A perspective of a fresh graduate<br>Tong Hui Kang
   <!-- If you have your computer, you can put together a technical solution at a very low cost. You can get feedback for your creation with stakeholders. -->
   - You can create anything with code
   <!-- If you want to implement an essay completion algorithm, you can follow resources available online to reproduce the results, modify them for your application or improve on the model. -->
+
 - The potential to serve millions or billions
   - A small scale projects can help you and your friends
   - A large scale project (with a company) can help millions or billions
   <!-- It is easy to build something. Getting people to use is hard. Asking people to pay is harder -->
+
 - The increasing importance of software and technology
   - The most popular professions - medicine and law are increasingly using technology
   - Successful companies need to be able to develop and use their own technology
@@ -155,6 +157,15 @@ allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pic
 # How Software Engineers collaborate
 <br>
 
+What we see in the skit
+- Version control
+- Code testing
+- Code review process
+- Lack of full understanding of the codebase
+
+Building software is a **collaborative** and **iterative** process
+
+<!--
 Code is usually packed in repositories. How are the repositories are edited
 
 - Identify what to solve
@@ -164,9 +175,8 @@ Code is usually packed in repositories. How are the repositories are edited
 - Make edits and save edits (Making commits)
 - Propose to merge edits with the main version (Make pull request)
   - Automated tests will be run to check if it breaks any existing tests
-- After code review, the proposed edits are approved and combined with the main version (Merge branch), and then deployed live to serve customers (Push to Production)
+- After code review, the proposed edits are approved and combined with the main version (Merge branch), and then deployed live to serve customers (Push to Production) -->
 
-Takeaway - building software is a **collaborative** and **iterative** process
 
 <!-- It is true that the core of Software Engineering is coding. However, it is not about writing code all day. Here I want to give a perspective on what else goes into writing code. -->
 
@@ -175,13 +185,10 @@ Takeaway - building software is a **collaborative** and **iterative** process
 <!-- We also now have some sense of what measures the success of a Software Engineer. The number of lines written does not indicate the productivity or effectiveness of the Software Engineer. -->
 
 
----
-
-
-# Tools used in a technical role
+<!-- # Tools used in a technical role -->
 <br>
 <!-- Another perspective of Software Engineers I want to provide is based on the tools at the Software Engineer use. -->
-
+<!--
 - Code editor
   - You definitely need to write code, in some language, the editor helps to make that easier
 - Version control (git)
@@ -192,7 +199,46 @@ Takeaway - building software is a **collaborative** and **iterative** process
   - Your code needs to be run on certain computers
   - You need to configure the computer you are deploying on, and the deployment process
 - Documentation
-  - Other people need to understand your code and you need to explain what your code is doing
+  - Other people need to understand your code and you need to explain what your code is doing -->
+
+---
+
+# The challenges in Software Engineering
+<br>
+
+Software Engineering is not only about writing code.
+Software Engineers need to [consider](http://codesqueeze.com/the-7-software-ilities-you-need-to-know/) the following
+
+<div grid="~ cols-2 gap-4">
+<div>
+
+## Usability
+
+Can users use the product intuitively?
+
+## Scalability
+
+How many users can you serve at a time?
+
+## Reliability
+
+How does your system prevent failure?
+
+</div>
+<div>
+
+## Maintainability
+
+Can the future team add modifications easily?
+
+## Security
+
+Is unauthorised access prevented?
+
+
+</div>
+</div>
+
 
 ---
 
@@ -232,20 +278,44 @@ Takeaway - building software is a **collaborative** and **iterative** process
 <br>
 
 Software Engineering basics is required of all engineers, after which they can specialise in
-  - Frontend
-    - Writes the code that is run on your device (your phone, your computer)
-  - Backend
-    - Writes the code that is run on the company's computers (storing and searching for information)
-  - Data science / Machine learning / Artificial intelligence
-    - Research, design and build predictive models
-      <!-- - Engineering track and Research track
-      - Research roles usually require Masters / PhD and require reading applying research papers -->
-  - Data engineer
-    - Prepare data for analysis or operations
-  - Security engineer
-    - Analyse whether the practices adhere to security standards
+
+<div grid="~ cols-2 gap-4">
+<div>
+
+## Frontend Engineer
+
+Implement user inferface
+
+## Backend Engineer
+
+Implement databases
+
+## Reliability Engineer
+
+Manages the code deployment process and ensure that product is working
+
+</div>
+<div>
+
+## Data Scientist / ML Engineer
+
+Research, design and build predictive models
+
+## Data Engineer
+
+Prepare data for analysis or operations
+
+## Security Analyst
+
+Analyse whether the product is safe from unauthorised access
+
+
+</div>
+</div>
+
 
 ---
+
 
 # Alternate classification of Software Engineering
 <br>
@@ -273,6 +343,8 @@ Responsibilites and Expectations increase with [each](https://blog.tryexponent.c
 - Principal Software Engineer - Lead multiple teams and influence business strategy
 
 
+Usually Software Engineers are managed by more senior Software Engineers
+
 ---
 
 # Companies hiring Software Engineers in Singapore
@@ -282,7 +354,7 @@ Organised by company categories with some examples
 - US Big Tech - Google, Facebook, Amazon
 - Chinese Big Tech - ByteDance, Tencent, Huawei, Alibaba
 - ASEAN Tech Unicorns - Grab, Gojek, Shopee/SEA, Razer
-- Banks and Payments - DBS, Citibank, Credit Suisse, JP Morgan, VISA, Mastercard
+- Banks and Payments - DBS, Citibank, Credit Suisse, JP Morgan, VISA, Mastercard, Stripe, Paypal
 - Government and related - GovTech, DSTA, DSO, HTX, GIC, Temasek, Singtel/NCS, SIA
 - Computer Electronics - NVIDIA, AMD, HP, ASUS
 - Tech Consultancies - Hope Technik, Thales, Accenture, 2359 Media
@@ -290,7 +362,7 @@ Organised by company categories with some examples
 - Startups and SMEs - Teralytics, Versafleet, KeyReply, Traverse
 - Academia - Research Officers, PhD programmes
 
-Not all companies above offer Software Engineering roles for fresh graduates
+Not all companies above offer Software Engineering roles for fresh graduates in Singapore
 
 
 ---
@@ -302,14 +374,24 @@ Not all companies above offer Software Engineering roles for fresh graduates
   - All full-time permament employed undergraduates - $3700
   - Undergraduates who studied information and digital technologies - $4760
 
+Annual enrollment of computing-related courses
+  - [NUS](https://www.nus.edu.sg/registrar/student-records/student-statistics) 1200, [NTU](https://www.ntu.edu.sg/about-us/facts-figures/total-graduate-output---first-degree-higher-degree) 1000, [SMU](https://www.smu.edu.sg/sites/default/files/smu/statistical_highlights_20200914_1.pdf) 250, SUTD 180, [SIT](https://www.singaporetech.edu.sg/sites/default/files/2021-01/SIT_Indicative_Grade_Profile_0.pdf) 350
+
+---
+
+# The tech landscape in Singapore
+<br>
+
 Starting salaries for selected companies
   - [DBS](https://www.nodeflair.com/companies/dbs-bank/salaries/software_engineer-junior) - $5500
   - [Shopee](https://nodeflair.com/companies/shopee/salaries/software_engineer-junior) - $6000
-  - [Facebook](https://www.levels.fyi/comp.html?track=Software%20Engineer&search=Facebook&region=Singapore&yoestart=0&yoeend=1&yoeradio=New%20Grad) $7600
-  - These figures should be considered with the number of available openings
+  - [Facebook](https://www.levels.fyi/comp.html?track=Software%20Engineer&search=Facebook&region=Singapore&yoestart=0&yoeend=1&yoeradio=New%20Grad) - $8400
 
-Annual enrollment of computing-related courses
-  - [NUS](https://www.nus.edu.sg/registrar/student-records/student-statistics) 1200, [NTU](https://www.ntu.edu.sg/about-us/facts-figures/total-graduate-output---first-degree-higher-degree) 1000, [SMU](https://www.smu.edu.sg/sites/default/files/smu/statistical_highlights_20200914_1.pdf) 250, SUTD 180
+Caveats to the figures above
+- These figures should be considered with the number of available openings
+- Google/Facebook SWE interns - have two prior internships on average
+- Tech Unicorns and Banks interns - more than half have at least one prior internship
+
 
 <!-- ---
 
@@ -334,12 +416,10 @@ I do not know how to present this. -->
 
 <div style="position: absolute; bottom: 50px;">
 
-# How do I <span class="ts-title">prepare</span> for a role in Software Engineering?
+# Is Software Engineering <span class="ts-title">for me</span>?
 
-- How do companies hire?
-- What do I need to do to make my job application competitive?
-- Where can I start?
-
+- How should I try out coding?
+- Am I a good fit for a software engineer?
 
 </div>
 
@@ -362,136 +442,6 @@ I do not know how to present this. -->
 }
 </style>
 
----
-
-# The technical hiring process
-<br>
-
-<!-- Here I provide some long-term advice on how to prepare for a technical career. I will address this from the perspective of how hiring manager and recruiters choose among candidates. -->
-
-
-What I describe here probably applies to many professional roles as well
-
-- The hiring process
-  - Resume screen > Online assessments > Technical interviews > Offer
-  - You need to get pass the prior stage before going on to the next stage
-
----
-
-## How to pass the resume filter
-<br>
-
-Primary filters
-- University name and course
-- Internships / Work experience
-  <!-- - Usually, your course requires you to complete an internship
-  - Internship will be the main differentiator of resumes
-  - Recruiters will judge the quality of your internship experience
-  - An endorsement by another company is a strong signal to allow your resume through the first filter
-  - Spend your first summer doing a technical internship, you need to start somewhere -->
-
-Tie breakers
-- Projects, Certifications, Competitions
-  <!-- - Project choice
-    - Something that interests you, start small and get advice
-  - Document and explain the project
-    - Writing helps to consolidate what have you learnt
-    - Others cannot appreciate if you cannot show and explain what you are doing
-  - Maintain a blog -->
-  <!-- - Cloud Certificates (GCP, AWS)
-  - Security Certificates (OSCP) -->
-
-<br><br>
-
-The state of the market
-- Google/Facebook SWE interns - have two prior internships on average
-- Tech Unicorns and Banks - more than half of the interns have at least one prior internship
-
----
-
-## How to pass the online assessment
-<br>
-
-- Practise coding questions
-  - [Leetcode](https://leetcode.com), [BinarySearch](https://binarysearch.com)
-  - Leetcode has weekly contests that simulate how online assessments work
-
-## How to pass the coding interview
-<br>
-
-- Mock interviews
-  - The best way to practise for an interview is to go for a real interview
-  - The next best way is to practise interviewing with your friend
-
-
-
----
-
-<iframe width=100% height=480
-src="https://www.youtube.com/embed/pKO9UjSeLew?start=0&end=146"
-title="YouTube video player" frameborder="0"
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
----
-
-# What you can do in university
-<br>
-
-- Choose a information systems related course
-- Do a technical internship in every summer break if possible
-  - Your application is stronger with technical internships
-  - Your first internship is unlikely to be prestigious
-    - Anywhere with a developer you can learn from is fine
-- Take on technical projects
-  - Course projects are fine if there is some degree of innovation
-  - Document the achievements and summarise what have you learnt
-- Practise for online assessments and coding interviews
-- Network and share resources
-  - For all my internships, referrals helped to get me an interview
-
----
-
-# What you can do after Junior College
-<br>
-
-You might want to find out if coding is for you
-- My suggestion is to learn Python and solve simple algorithmic tasks
-  - Start with Python which is easy to learn, rather than, say, Android programming
-  - [CodeSignal Arcade](https://app.codesignal.com/arcade/python-arcade/meet-python) introduces the concepts step by step, online videos are fine too
-- [Coding](https://hackwagon.com/courses/) [bootcamps](https://www.rocketacademy.co/courses/basics) provides supervised education
-  - Singaporeans might be eligible for [massive discounts](https://hackwagon.com/data-science-101/#courseSubsidies)
-
-If you like coding and have a lot of time, for example during National Service
-- Competitive programming (Leetcode [contests](https://leetcode.com/contest/), [Codeforces](https://codeforces.com/))
-  <!-- I should have practised competitive programming in NS -->
-- [Kaggle](https://www.kaggle.com/learn) data science courses and competitions
-- Build coding projects (start simple and seek advice)
-
----
-
-# What if you need to code for your research project
-<br>
-
-If you need to write code for a JC science project (presumably done over the December break)
-
-- Consider if you need to write code
-  - Basic data analysis (e.g. R-value) could be done on Excel
-  - Algorithms could be done with code
-- Choose Python if possible
-  - It is easy to pick up and learn
-- How to fix your code
-  - Start with a working copy
-  - Edit it bit by bit and ensuring that it still works
-- Seek advice - I am open to providing advice
-
----
-
-# This could have been done with code
-<br>
-
-Fun fact - I implemented my integer factorisation algorithm on Excel, should have done it in Python
-
-![algorithm](https://i.imgur.com/SeCDkiC.png)
 
 ---
 
@@ -499,6 +449,7 @@ Fun fact - I implemented my integer factorisation algorithm on Excel, should hav
 <br>
 
 - Admission into SUTD with no prior coding experience
+  - tried to follow tutorials for Andriod programming during NS but got nowhere
 - Participated in a [Hackathon](https://www.straitstimes.com/singapore/tertiary-students-come-up-with-innovative-ideas-to-tackle-fake-news) on Fake News
   - where I found my interest in natural language processing
 - [Internships](https://blog.huikang.dev/2021/05/14/internship-reflections.html)
@@ -508,6 +459,7 @@ Fun fact - I implemented my integer factorisation algorithm on Excel, should hav
   - did weekly Leetcode contests, for fun
   - currently [top 6000](https://codeforces.com/profile/huikang) on Codeforces
 - Quora Programming Contest 2021 - won a [T-shirt](https://challenge.quora.com/Division-2-End-Final-Results), interview and offer
+
 
 ---
 
@@ -522,13 +474,56 @@ Fun fact - I implemented my integer factorisation algorithm on Excel, should hav
 
 ---
 
+# What you can do after Junior College
+<br>
+
+How to get started with coding
+- [Coding](https://hackwagon.com/courses/) [bootcamps](https://www.rocketacademy.co/courses/basics) provide supervised education
+  - Singaporeans might be eligible for [massive discounts](https://hackwagon.com/data-science-101/#courseSubsidies) (pay $100 for a $2000 course)
+- If you want to self-learn, probably start with Python
+  - [CodeSignal Arcade](https://app.codesignal.com/arcade/python-arcade/meet-python) introduces the Python concepts step by step
+
+<br>
+
+If you like coding and have a lot of time, for example during National Service
+- Competitive programming (Leetcode [contests](https://leetcode.com/contest/), [Codeforces](https://codeforces.com/))
+  <!-- I should have practised competitive programming in NS -->
+- [Kaggle](https://www.kaggle.com/learn) data science tutorials and competitions
+- Build coding projects (start simple and seek advice)
+
+---
+
+# What if you need to code for your research project
+<br>
+
+If you need to write code for a JC science project (presumably done over the December break)
+
+- Consider the algorithms you want to implement with code
+- Choose Python if possible
+  - It is easy to pick up and learn
+- How to fix your code
+  - Start with a working copy
+  - Edit it bit by bit and ensuring that it still works
+- Seek advice - I can try to advise
+
+---
+
+# This could have been done with code
+<br>
+
+Fun fact - I implemented my integer factorisation algorithm on Excel, should have done it in Python
+
+![algorithm](https://i.imgur.com/SeCDkiC.png)
+
+---
+
 <div style="position: absolute; bottom: 50px;">
 
 # <span class="ts-title">Summary</span>
 
 - Software Engineering is cool and rewarding
 - What Software Engineering actually is
-- Steps to prepare for a Software Engineering career
+- How to get started with coding
 
 
 </div>
@@ -591,6 +586,7 @@ class: text-center
 [Frontend Interview Handbook](https://github.com/yangshun/front-end-interview-handbook) by Yangshun Tay et. al.
 
 [Software Engineering 2020 Class Profile of University of Waterloo](https://uw-se-2020-class-profile.github.io/profile.pdf) by Holly Oegema et. al.
+
 
 <!--
 # Interesting projects

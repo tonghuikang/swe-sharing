@@ -73,7 +73,7 @@ A perspective of a fresh graduate<br>Tong Hui Kang
   - To inform what Software Engineering is like
   - To describe the expectations of a technical career
   - To encourage more Singaporeans into Software Engineering
-  - To provide advice on how to enter the field of Software Engineering
+  - To provide advice on how get started in coding
 
 ---
 
@@ -91,14 +91,6 @@ A perspective of a fresh graduate<br>Tong Hui Kang
 <style>
 .ts-title {
   background-image: linear-gradient(45deg, #4EC5D4, #146b8c);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-}
-.golden-font {
-  background-image: linear-gradient(45deg, #f9b208, #f98404);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -127,22 +119,33 @@ A perspective of a fresh graduate<br>Tong Hui Kang
 
 <!-- Here I explain my main motivation for working on Software Engineering. It is easy to explain how doctors, lawyers or teachers add value to society and find joy in the profession. -->
 
-- The power to create
+- The power to <span class="golden-font">create</span>
   - Software Engineering is very accessible
   <!-- If you have your computer, you can put together a technical solution at a very low cost. You can get feedback for your creation with stakeholders. -->
   - You can create anything with code
   <!-- If you want to implement an essay completion algorithm, you can follow resources available online to reproduce the results, modify them for your application or improve on the model. -->
 
-- The potential to serve millions or billions
+- The potential to <span class="golden-font">serve</span> millions or billions
   - A small scale projects can help you and your friends
   - A large scale project (with a company) can help millions or billions
   <!-- It is easy to build something. Getting people to use is hard. Asking people to pay is harder -->
 
-- The increasing importance of software and technology
+- The increasing <span class="golden-font">importance</span> of software and technology
   - The most popular professions - medicine and law are increasingly using technology
   - Successful companies need to be able to develop and use their own technology
   - One of the highest paid jobs right after undergraduate education is Software Engineering
 
+
+<style>
+.golden-font {
+  background-image: linear-gradient(45deg, #f9b208, #f98404);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+</style>
 
 ---
 
@@ -163,7 +166,18 @@ What we see in the skit
 - Code review process
 - Lack of full understanding of the codebase
 
-Building software is a **collaborative** and **iterative** process
+Building software is a <span class="golden-font">collaborative</span> and <span class="golden-font">iterative</span> process
+
+<style>
+.golden-font {
+  background-image: linear-gradient(45deg, #f9b208, #f98404);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+</style>
 
 <!--
 Code is usually packed in repositories. How are the repositories are edited
@@ -186,7 +200,6 @@ Code is usually packed in repositories. How are the repositories are edited
 
 
 <!-- # Tools used in a technical role -->
-<br>
 <!-- Another perspective of Software Engineers I want to provide is based on the tools at the Software Engineer use. -->
 <!--
 - Code editor
@@ -238,6 +251,30 @@ Is unauthorised access prevented?
 
 </div>
 </div>
+
+
+
+---
+
+# Some perspectives on Software Engineering
+<br>
+<br>
+
+
+> 'Software Engineering' encompasses not just the act of writing code, but all of the tools and processes an organization uses to build and maintain that code over time
+
+\- from the book [Software Engineering at Google](https://abseil.io/resources/swe_at_google.2.pdf)
+
+<br>
+<br>
+
+> Software is about developing knowledge more than writing code
+
+> Software should be treated not as a static product, but as a living manifestation of the development team’s collective understanding
+
+\- from [How to Build Good Software](https://www.csc.gov.sg/articles/how-to-build-good-software) by Li Hongyi for Civil Service College
+
+
 
 
 ---
@@ -303,11 +340,11 @@ Research, design and build predictive models
 
 ## Data Engineer
 
-Prepare data for analysis or operations
+Stream data for operations or analysis
 
 ## Security Analyst
 
-Analyse whether the product is safe from unauthorised access
+Ensure that the product is protected from unauthorised access
 
 
 </div>
@@ -324,6 +361,8 @@ Analyse whether the product is safe from unauthorised access
   - There are programmers who care more about the code
   - There are programmers who care more about the product
   - "[Stop just using “frontend” or “backend” to describe the Engineering you like](https://blog.usejournal.com/stop-just-using-frontend-or-backend-to-describe-the-engineering-you-like-e8c392956ada)"
+
+<br>
 
 Takeaways
   - There is diversity in the psychological profiles even within a specialisation
@@ -372,10 +411,24 @@ Not all companies above offer Software Engineering roles for fresh graduates in 
 
 [Graduate starting salaries](https://www.straitstimes.com/singapore/new-graduates-from-4-local-universities-earned-higher-starting-salaries-but-more-working) (Median gross monthly salary)
   - All full-time permament employed undergraduates - $3700
-  - Undergraduates who studied information and digital technologies - $4760
+  - Undergraduates who studied information and digital technologies - <span class="golden-font">$4760</span>
+
+<br>
 
 Annual enrollment of computing-related courses
   - [NUS](https://www.nus.edu.sg/registrar/student-records/student-statistics) 1200, [NTU](https://www.ntu.edu.sg/about-us/facts-figures/total-graduate-output---first-degree-higher-degree) 1000, [SMU](https://www.smu.edu.sg/sites/default/files/smu/statistical_highlights_20200914_1.pdf) 250, SUTD 180, [SIT](https://www.singaporetech.edu.sg/sites/default/files/2021-01/SIT_Indicative_Grade_Profile_0.pdf) 350
+  - Do your research on their admission criteria
+
+<style>
+.golden-font {
+  background-image: linear-gradient(45deg, #f9b208, #f98404);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+</style>
 
 ---
 
@@ -387,10 +440,24 @@ Starting salaries for selected companies
   - [Shopee](https://nodeflair.com/companies/shopee/salaries/software_engineer-junior) - $6000
   - [Facebook](https://www.levels.fyi/comp.html?track=Software%20Engineer&search=Facebook&region=Singapore&yoestart=0&yoeend=1&yoeradio=New%20Grad) - $8400
 
-Caveats to the figures above
+<br>
+
+<span class="golden-font">Caveats</span> to the figures above
 - These figures should be considered with the number of available openings
 - Google/Facebook SWE interns - have two prior internships on average
-- Tech Unicorns and Banks interns - more than half have at least one prior internship
+- Tech Unicorns and Banks SWE interns - more than half have at least one prior internship
+
+
+<style>
+.golden-font {
+  background-image: linear-gradient(45deg, #f9b208, #f98404);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+</style>
 
 
 <!-- ---
@@ -419,7 +486,7 @@ I do not know how to present this. -->
 # Is Software Engineering <span class="ts-title">for me</span>?
 
 - How should I try out coding?
-- Am I a good fit for a software engineer?
+- Am I a good fit for a Software Engineer?
 
 </div>
 
@@ -458,7 +525,7 @@ I do not know how to present this. -->
 - Competitive programming
   - did weekly Leetcode contests, for fun
   - currently [top 6000](https://codeforces.com/profile/huikang) on Codeforces
-- Quora Programming Contest 2021 - won a [T-shirt](https://challenge.quora.com/Division-2-End-Final-Results), interview and offer
+  - Quora Programming Contest 2021 - won a [T-shirt](https://challenge.quora.com/Division-2-End-Final-Results), interview and offer
 
 
 ---
@@ -479,7 +546,7 @@ I do not know how to present this. -->
 
 How to get started with coding
 - [Coding](https://hackwagon.com/courses/) [bootcamps](https://www.rocketacademy.co/courses/basics) provide supervised education
-  - Singaporeans might be eligible for [massive discounts](https://hackwagon.com/data-science-101/#courseSubsidies) (pay $100 for a $2000 course)
+  - Singaporeans might be eligible for [massive discounts](https://hackwagon.com/data-science-101/#courseSubsidies)
 - If you want to self-learn, probably start with Python
   - [CodeSignal Arcade](https://app.codesignal.com/arcade/python-arcade/meet-python) introduces the Python concepts step by step
 
@@ -503,15 +570,26 @@ If you need to write code for a JC science project (presumably done over the Dec
   - It is easy to pick up and learn
 - How to fix your code
   - Start with a working copy
-  - Edit it bit by bit and ensuring that it still works
-- Seek advice - I can try to advise
+  - Edit it bit by bit for your application while ensuring that it still works
+- Seek <span class="golden-font">advice</span> - ask your mentor, but I can try to advise
+
+<style>
+.golden-font {
+  background-image: linear-gradient(45deg, #f9b208, #f98404);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+</style>
 
 ---
 
 # This could have been done with code
 <br>
 
-Fun fact - I implemented my integer factorisation algorithm on Excel, should have done it in Python
+I implemented my integer factorisation algorithm on Excel for SSEF, should have done it in Python
 
 ![algorithm](https://i.imgur.com/SeCDkiC.png)
 
@@ -531,14 +609,6 @@ Fun fact - I implemented my integer factorisation algorithm on Excel, should hav
 <style>
 .ts-title {
   background-image: linear-gradient(45deg, #4EC5D4, #146b8c);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-}
-.golden-font {
-  background-image: linear-gradient(45deg, #f9b208, #f98404);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -565,9 +635,9 @@ class: text-center
 
 [How to Build Good Software](https://www.csc.gov.sg/articles/how-to-build-good-software) by Li Hongyi
 
-[The Two Tiers of Singapore's tech companies](http://elijames.org/the-two-tiers-of-singapores-tech-companies/) by Eli James
-
 [Software Engineering at Google](https://abseil.io/resources/swe_at_google.2.pdf) by Titus Winters et. al.
+
+[The Two Tiers of Singapore's Tech Companies](http://elijames.org/the-two-tiers-of-singapores-tech-companies/) by Eli James
 
 [Code-first vs. Product-first](https://medium.com/@zachlloyd/code-first-vs-product-first-a086d982b7d0) by Zach Lloyd
 

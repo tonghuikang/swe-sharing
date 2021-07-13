@@ -1,6 +1,12 @@
-# Talk: Type System in TypeScript
+# Foreward
 
-Slides for my talk: Type System in TypeScript. Proudly powered by [Slidev](https://github.com/slidevjs/slidev).
+This repository contains the source code for my presentation on Sharing about Software Engineering.
+
+The slides will be hosted on https://tonghuikang.github.io/swe-sharing
+
+Theses slides are powered by [Slidev](https://github.com/slidevjs/slidev), using templates from [dizys](https://github.com/dizys/talk-type-system-in-typescript).
+
+The following contains information on how to update and deploy the slides.
 
 ## Prerequisites
 

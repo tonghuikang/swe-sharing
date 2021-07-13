@@ -19,6 +19,9 @@ info: |
   by Tong Hui Kang
 ---
 
+<!--
+
+-->
 
 # <span class="golden-font">Sharing</span> on <span class="golden-font"> <br> Software Engineering</span>
 
@@ -51,12 +54,12 @@ A perspective of a fresh graduate<br>Tong Hui Kang
 # Personal Introduction
 <br>
 
-- SUTD student 2017-2021, Engineering Systems and Design
 - AJC student 2013-2014, PCME
   - Project Eureka (STEM Inc predecessor)
     - H3-SRP Merit on Merkle-Damgard construction
     - SSEF Merit with integer factorisation with a sum of four squares
   - See my A level notes on [owlcove.sg](https://owlcove.sg/learn)
+- SUTD student 2017-2021, Engineering Systems and Design
 - Technical internships
   - 3 companies totalling over 8 months full-time and 8 months part-time
 - Interview experience
@@ -70,10 +73,22 @@ A perspective of a fresh graduate<br>Tong Hui Kang
 <br>
 
 - Motivation of this talk
-  - To inform what Software Engineering is like
-  - To describe the expectations of a technical career
-  - To encourage more Singaporeans into Software Engineering
-  - To provide advice on how get started in coding
+  - To <span class="golden-font">inform</span> what Software Engineering is like
+  - To <span class="golden-font">describe</span> the expectations of a technical career
+  - To <span class="golden-font">encourage</span> more Singapore students into Software Engineering
+  - To <span class="golden-font">provide advice</span> on how get started in coding
+
+<style>
+.golden-font {
+  background-image: linear-gradient(45deg, #f9b208, #f98404);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+</style>
+
 
 ---
 
@@ -112,6 +127,8 @@ A perspective of a fresh graduate<br>Tong Hui Kang
   allowfullscreen></iframe>
 
 
+<!-- Include YOUR reason on why you choose software engineering -->
+
 ---
 
 # The appeal of working in Software Engineering
@@ -149,6 +166,13 @@ A perspective of a fresh graduate<br>Tong Hui Kang
 
 ---
 
+<!--
+Not expecting them to get the joke.
+
+Before start of video explain
+- The main character is fixing a bug on the code.
+-->
+
 <iframe width=100% height=480
 src="https://www.youtube.com/embed/rR4n-0KYeKQ"
 title="YouTube video player" frameborder="0"
@@ -161,7 +185,8 @@ allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pic
 <br>
 
 What we see in the skit
-- Version control
+- Writing (or deleting) code
+- Version control (Github)
 - Code testing
 - Code review process
 - Lack of full understanding of the codebase
@@ -216,47 +241,58 @@ Code is usually packed in repositories. How are the repositories are edited
 
 ---
 
+# The future of coding?
+
+<iframe
+  width="672" height="378"
+  src="https://www.youtube.com/embed/edSZh-tpTIk?start=0&end=49"
+  title="YouTube video player" frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen></iframe>
+
+---
+
 # The challenges in Software Engineering
 <br>
 
-Software Engineering is not only about writing code.
+Software Engineering is <span class="golden-font">not only about writing code</span>.
+<br>
+<br>
+
 Software Engineers need to [consider](http://codesqueeze.com/the-7-software-ilities-you-need-to-know/) the following
 
-<div grid="~ cols-2 gap-4">
-<div>
-
-## Usability
-
-Can users use the product intuitively?
-
-## Scalability
-
-How many users can you serve at a time?
-
-## Reliability
-
-How does your system prevent failure?
-
-</div>
-<div>
-
-## Maintainability
-
-Can the future team add modifications easily?
-
-## Security
-
-Is unauthorised access prevented?
+- Can users use the product intuitively?
 
 
-</div>
-</div>
+- How many users can you serve at a time?
+
+
+- How does your system prevent failure?
+
+
+- Can the future team add modifications easily?
+
+
+- Is unauthorised access prevented?
+
+
+<style>
+.golden-font {
+  background-image: linear-gradient(45deg, #f9b208, #f98404);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+</style>
 
 
 
 ---
 
 # Some perspectives on Software Engineering
+<br>
 <br>
 <br>
 
@@ -284,7 +320,7 @@ Is unauthorised access prevented?
 # What are the <span class="ts-title">various roles</span> of Software Engineering?
 
 - What are the different types of Software Engineering?
-- How do Software Engineer advance in their careers?
+- How do Software Engineers advance in their careers?
 - How is the market for Software Engineers like in Singapore?
 
 
@@ -319,37 +355,56 @@ Software Engineering basics is required of all engineers, after which they can s
 <div grid="~ cols-2 gap-4">
 <div>
 
-## Frontend Engineer
+<span class="golden-font">Frontend Engineer</span>
 
 Implement user inferface
 
-## Backend Engineer
+<br>
 
-Implement databases
+<span class="golden-font">Backend Engineer</span>
 
-## Reliability Engineer
+Implement databases and logic
 
-Manages the code deployment process and ensure that product is working
+<br>
+
+<span class="golden-font">Reliability Engineer</span>
+
+Ensure that the product is works
 
 </div>
 <div>
 
-## Data Scientist / ML Engineer
+<span class="golden-font">Data Scientist / ML Engineer</span>
 
 Research, design and build predictive models
 
-## Data Engineer
+<br>
 
-Stream data for operations or analysis
+<span class="golden-font">Data Engineer</span>
 
-## Security Analyst
+Manage live data for operations or analysis
 
-Ensure that the product is protected from unauthorised access
+<br>
+
+<span class="golden-font">Security Analyst</span>
+
+Protect the product from unauthorised access
 
 
 </div>
 </div>
 
+
+<style>
+.golden-font {
+  background-image: linear-gradient(45deg, #f9b208, #f98404);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+</style>
 
 ---
 
@@ -365,8 +420,8 @@ Ensure that the product is protected from unauthorised access
 <br>
 
 Takeaways
-  - There is diversity in the psychological profiles even within a specialisation
-  - Do consider more factors when choosing your career or role
+- There is diversity in the psychological profiles even within a specialisation
+- You may take some time to discover the nature of the role that you prefer
 
 
 ---
@@ -375,14 +430,20 @@ Takeaways
 <br>
 
 Responsibilites and Expectations increase with [each](https://blog.tryexponent.com/learn-software-engineering-levels-to-advance-your-career/) [level](https://www.quora.com/What-is-the-expectation-out-of-each-software-engineering-level-at-Facebook/answer/Dima-Korolev)
-- Software Engineer I - Write code and tests with under basic supervision
-- Software Engineer II - Make minor and implement design decisions without supervision.
-- Senior Software Engineer - Formulate new problems and manage work
-- Staff Software Engineer - Lead the engineering team and coordinate with other teams
-- Principal Software Engineer - Lead multiple teams and influence business strategy
+1) Write code and tests with under basic supervision
+2) Make minor and implement design decisions without supervision.
+3) Prioritize the problems to solve and manage work
 
+<br>
 
-Usually Software Engineers are managed by more senior Software Engineers
+Other roles that Software Engineers pivot to
+
+- Product Manager - Manage product requirements and product schedule
+- Engineering Manager - Lead the team and communicate with other teams and upper management
+
+<br>
+
+Usually Software Engineers are managed by people with Software Engineering experience
 
 ---
 
@@ -399,7 +460,7 @@ Organised by company categories with some examples
 - Tech Consultancies - Hope Technik, Thales, Accenture, 2359 Media
 - Business Consultancies - McKinsey, Bain, BCG, EY, KPMG, Deloitte, PwC
 - Startups and SMEs - Teralytics, Versafleet, KeyReply, Traverse
-- Academia - Research Officers, PhD programmes
+- Universities and Academia - Research Officers, PhD programmes
 
 Not all companies above offer Software Engineering roles for fresh graduates in Singapore
 
@@ -520,8 +581,8 @@ I do not know how to present this. -->
 - Participated in a [Hackathon](https://www.straitstimes.com/singapore/tertiary-students-come-up-with-innovative-ideas-to-tackle-fake-news) on Fake News
   - where I found my interest in natural language processing
 - [Internships](https://blog.huikang.dev/2021/05/14/internship-reflections.html)
-  - where I found my strong preference for a technical role
   - where I understood how Software Engineering is actually like
+  - where I found my strong preference for a technical role
 - Competitive programming
   - did weekly Leetcode contests, for fun
   - currently [top 6000](https://codeforces.com/profile/huikang) on Codeforces
@@ -545,10 +606,12 @@ I do not know how to present this. -->
 <br>
 
 How to get started with coding
-- [Coding](https://hackwagon.com/courses/) [bootcamps](https://www.rocketacademy.co/courses/basics) provide supervised education
+  - Coding bootcamps
+  - [Hackwagon](https://hackwagon.com/courses/) 101 introductory courses
+  - [Rocket Academy](https://www.rocketacademy.co/courses/basics) Coding Basics
   - Singaporeans might be eligible for [massive discounts](https://hackwagon.com/data-science-101/#courseSubsidies)
-- If you want to self-learn, probably start with Python
-  - [CodeSignal Arcade](https://app.codesignal.com/arcade/python-arcade/meet-python) introduces the Python concepts step by step
+- Online classes
+  - [edX Harvard CS50](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x)
 
 <br>
 
@@ -568,7 +631,7 @@ If you need to write code for a JC science project (presumably done over the Dec
 - Consider the algorithms you want to implement with code
 - Choose Python if possible
   - It is easy to pick up and learn
-- How to fix your code
+- Generic advice on how to fix your code
   - Start with a working copy
   - Edit it bit by bit for your application while ensuring that it still works
 - Seek <span class="golden-font">advice</span> - ask your mentor, but I can try to advise
@@ -651,11 +714,16 @@ class: text-center
 
 [Evolution of Resumes - My journey through NUS Computer Science](https://luyangkenneth.github.io/evolution-of-resumes/) by Kenneth Lu
 
+[Software Engineering 2020 Class Profile of University of Waterloo](https://uw-se-2020-class-profile.github.io/profile.pdf) by Holly Oegema et. al.
+
+Materials to be familiar with to do well in interviews
+
 [Tech Interview Handbook](https://github.com/yangshun/tech-interview-handbook) by Yangshun Tay et. al.
 
 [Frontend Interview Handbook](https://github.com/yangshun/front-end-interview-handbook) by Yangshun Tay et. al.
 
-[Software Engineering 2020 Class Profile of University of Waterloo](https://uw-se-2020-class-profile.github.io/profile.pdf) by Holly Oegema et. al.
+[Machine Learning Interview Book](https://huyenchip.com/ml-interviews-book/) by Chip Huyen
+
 
 
 <!--

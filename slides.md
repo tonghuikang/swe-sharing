@@ -72,7 +72,7 @@ A perspective of a fresh graduate<br>Tong Hui Kang
 # Introduction
 <br>
 
-- Motivation of this talk
+- Objective of this talk
   - To <span class="golden-font">inform</span> what Software Engineering is like
   - To <span class="golden-font">describe</span> the expectations of a technical career
   - To <span class="golden-font">encourage</span> more Singapore students into Software Engineering
@@ -137,20 +137,24 @@ A perspective of a fresh graduate<br>Tong Hui Kang
 <!-- Here I explain my main motivation for working on Software Engineering. It is easy to explain how doctors, lawyers or teachers add value to society and find joy in the profession. -->
 
 - The power to <span class="golden-font">create</span>
-  - Software Engineering is very accessible
-  <!-- If you have your computer, you can put together a technical solution at a very low cost. You can get feedback for your creation with stakeholders. -->
   - You can create anything with code
-  <!-- If you want to implement an essay completion algorithm, you can follow resources available online to reproduce the results, modify them for your application or improve on the model. -->
+  <!-- If you find something in the world that could be improved with software, you can build it -->
+  <!-- You can find resources online that teaches you how to implement each individual component, and you can put them together -->
+  - Software Engineering is very accessible
+  <!-- As long as you have a computer, whatever can be created with code can be created -->
 
 - The potential to <span class="golden-font">serve</span> millions or billions
-  - A small scale projects can help you and your friends
+  - A small scale project can help you and your friends
+  <!-- By helping yourself or your friend, you can see impact from your work. -->
+  <!-- Every now and then you can see people sharing their projects online, which can be used by anyone -->
   - A large scale project (with a company) can help millions or billions
-  <!-- It is easy to build something. Getting people to use is hard. Asking people to pay is harder -->
+  <!-- There is also potential to change the world. Software is easy to scale and help many people. -->
 
 - The increasing <span class="golden-font">importance</span> of software and technology
   - The most popular professions - medicine and law are increasingly using technology
   - Successful companies need to be able to develop and use their own technology
   - One of the highest paid jobs right after undergraduate education is Software Engineering
+  <!-- Software is eating up the world. -->
 
 
 <style>
@@ -167,10 +171,11 @@ A perspective of a fresh graduate<br>Tong Hui Kang
 ---
 
 <!--
-Not expecting them to get the joke.
+This video I am going to show very well summarise how Software Engineers operate.
 
-Before start of video explain
-- The main character is fixing a bug on the code.
+I am not expecting you to get the joke, so I will explain some things we see in the video
+
+So in this video, the main character, the junior software engineer is fixing a bug in the code.
 -->
 
 <iframe width=100% height=480
@@ -186,8 +191,8 @@ allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pic
 
 What we see in the skit
 - Writing (or deleting) code
-- Version control (Github)
 - Code testing
+- Version control
 - Code review process
 - Lack of full understanding of the codebase
 
@@ -204,44 +209,29 @@ Building software is a <span class="golden-font">collaborative</span> and <span 
 }
 </style>
 
-<!--
-Code is usually packed in repositories. How are the repositories are edited
+<!-- When the junior engineer make changes, the code runs on a specific set of tests -->
+<!-- When the junior engineer make changes, it happens on his version of the code -->
+<!-- When the junior engineer proposes to make changes to main version of the code, the senior engineer reviews the changes -->
+<!-- By both the junior and the senior software engineer -->
 
-- Identify what to solve
-  - Could be adding a simple feature, fixing an issue
-  - These plans could be made at the start of the week
-- Make a copy of the code (Creating a branch)
-- Make edits and save edits (Making commits)
-- Propose to merge edits with the main version (Make pull request)
-  - Automated tests will be run to check if it breaks any existing tests
-- After code review, the proposed edits are approved and combined with the main version (Merge branch), and then deployed live to serve customers (Push to Production) -->
-
-
-<!-- It is true that the core of Software Engineering is coding. However, it is not about writing code all day. Here I want to give a perspective on what else goes into writing code. -->
-
-<!-- We see that editing code is a collaborative process. There is a lot of communication and planning involved. This is what differentiate Software Engineers. When you write code, your code needs to be robust and efficient, and it has to be read and edited by future developers. -->
-
-<!-- We also now have some sense of what measures the success of a Software Engineer. The number of lines written does not indicate the productivity or effectiveness of the Software Engineer. -->
-
-
-<!-- # Tools used in a technical role -->
-<!-- Another perspective of Software Engineers I want to provide is based on the tools at the Software Engineer use. -->
-<!--
-- Code editor
-  - You definitely need to write code, in some language, the editor helps to make that easier
-- Version control (git)
-  - You will be collaborating with other people on the code
-- Testing
-  - Your code needs to work, tests are written to ensure that they work
-- Automation
-  - Your code needs to be run on certain computers
-  - You need to configure the computer you are deploying on, and the deployment process
-- Documentation
-  - Other people need to understand your code and you need to explain what your code is doing -->
+<!-- We see that both the junior and the senior review each others' work in fixing the code -->
+<!-- The code is never done, new features are added and issues are fixed -->
 
 ---
 
 # The future of coding?
+
+<!--
+This video I am showing you is an AI writing code
+
+Voiceover
+
+What we see there is that the programmer writing a piece of comment specifying the requirements
+
+Then we see the artificial intelligence produces code fulfilling that requirements
+
+Laypeople look at this and wonder whether will software engineers run out of jobs
+-->
 
 <iframe
   width="672" height="378"
@@ -252,10 +242,22 @@ Code is usually packed in repositories. How are the repositories are edited
 
 ---
 
+# It's called [code](https://www.commitstrip.com/en/2016/08/25/a-very-comprehensive-and-precise-spec/)
+
+<br><br>
+
+![called-code](https://i.imgur.com/BadoBEK.png)
+
+<!--
+Read the comic
+-->
+
+---
+
 # The challenges in Software Engineering
 <br>
 
-Software Engineering is <span class="golden-font">not only about writing code</span>.
+Software Engineering <span class="golden-font">is not only about writing code</span>.
 <br>
 <br>
 
@@ -287,6 +289,15 @@ Software Engineers need to [consider](http://codesqueeze.com/the-7-software-ilit
 }
 </style>
 
+<!--
+Can users use the product intuitively without guidance
+How many database connections can you have at the same time
+What happens when part of your system goes down
+After you leave the company, can your successors understand what you wrote
+Is sensitive information protected
+
+These questions require an understanding of the business use case and also techincal concepts
+-->
 
 
 ---
@@ -310,8 +321,15 @@ Software Engineers need to [consider](http://codesqueeze.com/the-7-software-ilit
 
 \- from [How to Build Good Software](https://www.csc.gov.sg/articles/how-to-build-good-software) by Li Hongyi for Civil Service College
 
+<!--
+As mentioned, software is no a one-off work
+The code needs to be deployed and maintained - this is software engineering
 
-
+When we develop a software solution, we also develop knowledge how we approach the solution, which include knowledge on software
+The team learn from what works and what does not work and it is important to keep the knowledge in the company
+In the essay, Li Hongyi argues why the Singapore Government needs software engineers rather than to always simply outsource
+By extension, this suggests the importance of Software Engineers in organisations that produces software
+-->
 
 ---
 
@@ -357,7 +375,7 @@ Software Engineering basics is required of all engineers, after which they can s
 
 <span class="golden-font">Frontend Engineer</span>
 
-Implement user inferface
+Implement user interface
 
 <br>
 
@@ -406,6 +424,24 @@ Protect the product from unauthorised access
 }
 </style>
 
+<!--
+What you see on the website or the phone app is the work of the Frontend Engineer
+
+Of course the phone app usually does not work by itself, it reads data from somewhere called the database.
+This is done by the Backend Engineer
+
+The Reliability Engineer ensures that the product works, code is deployed and downtime is avoided
+
+The Data Scientist or ML Engineer (read slides)
+The models could automate the work of humans, or example by flagging whether the content is offensive and should be reviewed
+
+The Data Engineer (read slides)
+For large companies, there is a lot of data and some solutions require using this large amount of data
+
+The Security Analyst (read slides)
+They know the industry practices and common security loopholes and they fix the loopholes.
+-->
+
 ---
 
 
@@ -424,14 +460,26 @@ Takeaways
 - You may take some time to discover the nature of the role that you prefer
 
 
+<!--
+People who care more about the product prefer to interact with the users and solve their problems.
+People who care more about the code prefer to work with static requirements rather than uncertain preferences of the users.
+
+Of course, ideally you want to be the type appropriate for the scenario. But some people may find the other type draining.
+
+In the article, the author was assigned a code-first role and found little meaning in the role and reconsidered her interest in SWE.
+Then when she found a product-first role she was more empowered and found meaning in her work.
+
+We need both of these types of people.
+-->
+
 ---
 
 # The career ladder of Software Engineering
 <br>
 
-Responsibilites and Expectations increase with [each](https://blog.tryexponent.com/learn-software-engineering-levels-to-advance-your-career/) [level](https://www.quora.com/What-is-the-expectation-out-of-each-software-engineering-level-at-Facebook/answer/Dima-Korolev)
-1) Write code and tests with under basic supervision
-2) Make minor and implement design decisions without supervision.
+Responsibilities and Expectations increase with [each](https://blog.tryexponent.com/learn-software-engineering-levels-to-advance-your-career/) [level](https://www.quora.com/What-is-the-expectation-out-of-each-software-engineering-level-at-Facebook/answer/Dima-Korolev)
+1) Write code and tests under basic supervision
+2) Make minor and implement design decisions without supervision
 3) Prioritize the problems to solve and manage work
 
 <br>
@@ -443,7 +491,13 @@ Other roles that Software Engineers pivot to
 
 <br>
 
-Usually Software Engineers are managed by people with Software Engineering experience
+Usually, Software Engineers are managed by people with Software Engineering experience
+
+<!--
+(read slides)
+Product Manager - there are non-technical product managers, but if a non-technical person instructs a technical team, they need to somehow get respect
+-->
+
 
 ---
 
@@ -520,25 +574,30 @@ Starting salaries for selected companies
 }
 </style>
 
+<!--
+Interns
+-->
 
-<!-- ---
+---
 
-# Addressing the perceptions of Software Engineering
+# Base salary ranges in the Southeast Asia startups
 <br>
 
-- Software Engineering is boring
-  - Yes it is
-- Software can be written by the lowest bidder [TODO]
-  - Vietnamese graduate salaries
-  - https://www.csc.gov.sg/articles/how-to-build-good-software
-- Some day we will not need Software Engineers anymore [TODO]
-  - https://www.commitstrip.com/en/2016/08/25/a-very-comprehensive-and-precise-spec/
-- The varying Software Engineering environments in Singapore [TODO]
-  - http://elijames.org/the-two-tiers-of-singapores-tech-companies/
+![salary-ranges-ds](https://i.imgur.com/ZVFI5Rd.png)
 
-There is a common perception that engineering in Singapore is undervalued. I would like to provide a better insight into the following points.
+![salary-ranges-swe](https://i.imgur.com/sDpYYk6.png)
 
-I do not know how to present this. -->
+
+From [2021 Southeast Asia Tech Talent Compensation Report](https://employers.glints.com/sg/blog/2021/03/30/2021-southeast-asia-tech-talent-compensation-report/) by Glints and Monk's Hills Ventures
+
+
+<!--
+We earn 1 to 4 times more than our peers in the region.
+
+What justifies our salaries? Just because we are in Singapore? Just because we graduate from Singapore universities?
+
+This is something that we need to answer.
+-->
 
 ---
 
@@ -546,7 +605,7 @@ I do not know how to present this. -->
 
 # Is Software Engineering <span class="ts-title">for me</span>?
 
-- How should I try out coding?
+- How do I try out coding?
 - Am I a good fit for a Software Engineer?
 
 </div>
@@ -588,6 +647,10 @@ I do not know how to present this. -->
   - currently [top 6000](https://codeforces.com/profile/huikang) on Codeforces
   - Quora Programming Contest 2021 - won a [T-shirt](https://challenge.quora.com/Division-2-End-Final-Results), interview and offer
 
+<!--
+What I want to share is that the most important thing in the internship is the lunch where you can ask questions unrelated to your work
+Learnt a lot from lunch conversations before the pandemic
+-->
 
 ---
 
@@ -606,7 +669,7 @@ I do not know how to present this. -->
 <br>
 
 How to get started with coding
-  - Coding bootcamps
+- Coding bootcamps
   - [Hackwagon](https://hackwagon.com/courses/) 101 introductory courses
   - [Rocket Academy](https://www.rocketacademy.co/courses/basics) Coding Basics
   - Singaporeans might be eligible for [massive discounts](https://hackwagon.com/data-science-101/#courseSubsidies)
@@ -617,9 +680,10 @@ How to get started with coding
 
 If you like coding and have a lot of time, for example during National Service
 - Competitive programming (Leetcode [contests](https://leetcode.com/contest/), [Codeforces](https://codeforces.com/))
-  <!-- I should have practised competitive programming in NS -->
 - [Kaggle](https://www.kaggle.com/learn) data science tutorials and competitions
 - Build coding projects (start simple and seek advice)
+
+<!-- I should have practised competitive programming in NS -->
 
 ---
 
@@ -706,6 +770,7 @@ class: text-center
 
 [Stop just using “Frontend” or “Backend” to describe the Engineering you like](https://medium.com/@michlim97/stop-just-using-frontend-or-backend-to-describe-the-engineering-you-like-e8c392956ada) by Michelle Lim
 
+[2021 Southeast Asia Tech Talent Compensation Report](https://employers.glints.com/sg/blog/2021/03/30/2021-southeast-asia-tech-talent-compensation-report/) by Glints and Monk’s Hills Ventures
 
 ---
 
@@ -715,6 +780,8 @@ class: text-center
 [Evolution of Resumes - My journey through NUS Computer Science](https://luyangkenneth.github.io/evolution-of-resumes/) by Kenneth Lu
 
 [Software Engineering 2020 Class Profile of University of Waterloo](https://uw-se-2020-class-profile.github.io/profile.pdf) by Holly Oegema et. al.
+
+<br>
 
 Materials to be familiar with to do well in interviews
 
@@ -737,3 +804,56 @@ Materials to be familiar with to do well in interviews
 
 <!-- To add images, hopefully my friends can build the Snake game in time -->
 
+<!--
+Code is usually packed in repositories. How are the repositories are edited
+
+- Identify what to solve
+  - Could be adding a simple feature, fixing an issue
+  - These plans could be made at the start of the week
+- Make a copy of the code (Creating a branch)
+- Make edits and save edits (Making commits)
+- Propose to merge edits with the main version (Make pull request)
+  - Automated tests will be run to check if it breaks any existing tests
+- After code review, the proposed edits are approved and combined with the main version (Merge branch), and then deployed live to serve customers (Push to Production) -->
+
+
+<!-- It is true that the core of Software Engineering is coding. However, it is not about writing code all day. Here I want to give a perspective on what else goes into writing code. -->
+
+<!-- We see that editing code is a collaborative process. There is a lot of communication and planning involved. This is what differentiate Software Engineers. When you write code, your code needs to be robust and efficient, and it has to be read and edited by future developers. -->
+
+<!-- We also now have some sense of what measures the success of a Software Engineer. The number of lines written does not indicate the productivity or effectiveness of the Software Engineer. -->
+
+
+<!-- # Tools used in a technical role -->
+<!-- Another perspective of Software Engineers I want to provide is based on the tools at the Software Engineer use. -->
+<!--
+- Code editor
+  - You definitely need to write code, in some language, the editor helps to make that easier
+- Version control (git)
+  - You will be collaborating with other people on the code
+- Testing
+  - Your code needs to work, tests are written to ensure that they work
+- Automation
+  - Your code needs to be run on certain computers
+  - You need to configure the computer you are deploying on, and the deployment process
+- Documentation
+  - Other people need to understand your code and you need to explain what your code is doing -->
+
+<!-- ---
+
+# Addressing the perceptions of Software Engineering
+<br>
+
+- Software Engineering is boring
+  - Yes it is
+- Software can be written by the lowest bidder [TODO]
+  - Vietnamese graduate salaries
+  - https://www.csc.gov.sg/articles/how-to-build-good-software
+- Some day we will not need Software Engineers anymore [TODO]
+  - https://www.commitstrip.com/en/2016/08/25/a-very-comprehensive-and-precise-spec/
+- The varying Software Engineering environments in Singapore [TODO]
+  - http://elijames.org/the-two-tiers-of-singapores-tech-companies/
+
+There is a common perception that engineering in Singapore is undervalued. I would like to provide a better insight into the following points.
+
+I do not know how to present this. -->

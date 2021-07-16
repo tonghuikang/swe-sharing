@@ -19,10 +19,6 @@ info: |
   by Tong Hui Kang
 ---
 
-<!--
-
--->
-
 # <span class="golden-font">Sharing</span> on <span class="golden-font"> <br> Software Engineering</span>
 
 A perspective of a fresh graduate<br>Tong Hui Kang
@@ -66,6 +62,8 @@ A perspective of a fresh graduate<br>Tong Hui Kang
   - Interviewed with a total of 6 companies
   - Incoming Quora Software Engineer
 - See my [resume](https://resume.huikang.dev) and [blog](https://blog.huikang.dev)
+
+<!-- Mention that the links are clickable -->
 
 ---
 
@@ -126,8 +124,6 @@ A perspective of a fresh graduate<br>Tong Hui Kang
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
   allowfullscreen></iframe>
 
-
-<!-- Include YOUR reason on why you choose software engineering -->
 
 ---
 
@@ -293,7 +289,7 @@ Software Engineers need to [consider](http://codesqueeze.com/the-7-software-ilit
 Can users use the product intuitively without guidance
 How many database connections can you have at the same time
 What happens when part of your system goes down
-After you leave the company, can your successors understand what you wrote
+After you leave the company, can your successors understand what you wrote, fix bugs and add features
 Is sensitive information protected
 
 These questions require an understanding of the business use case and also techincal concepts
@@ -427,8 +423,8 @@ Protect the product from unauthorised access
 <!--
 What you see on the website or the phone app is the work of the Frontend Engineer
 
-Of course the phone app usually does not work by itself, it reads data from somewhere called the database.
-This is done by the Backend Engineer
+Of course the phone app usually does not work by itself, it needs information, it reads information from somewhere called the database.
+This is managed by the Backend Engineer
 
 The Reliability Engineer ensures that the product works, code is deployed and downtime is avoided
 
@@ -630,6 +626,13 @@ This is something that we need to answer.
 </style>
 
 
+<!--
+I especially agree on the point of presistence.
+For Engineering in general, either it works or does not work, unless let's say, business plans.
+You need to be able to try again and again until it works. Also you need to smart enough to identify problems.
+-->
+
+
 ---
 
 # My Story
@@ -648,8 +651,9 @@ This is something that we need to answer.
   - Quora Programming Contest 2021 - won a [T-shirt](https://challenge.quora.com/Division-2-End-Final-Results), interview and offer
 
 <!--
-What I want to share is that the most important thing in the internship is the lunch where you can ask questions unrelated to your work
-Learnt a lot from lunch conversations before the pandemic
+What I want to share is that the most important thing in the internship is the lunch with your colleagues
+- where you can ask questions unrelated to your work
+This is what I missed most in the pandemic
 -->
 
 ---
